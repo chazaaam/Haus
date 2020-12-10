@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.8.3.111 SP?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="Package">VisuSideBar</Object>
+    <Object Type="Package">VisuFooter</Object>
+    <Object Type="Package">VisuStatusButtons</Object>
+    <Object Type="Package">VisuDiagnosis</Object>
+    <Object Type="Package">AlarmSev</Object>
+    <Object Type="Package">VisuLanguage</Object>
+    <Object Type="Package">VisuFunctions</Object>
+  </Objects>
+</Package>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.8.3.111 SP?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="File">020_EmergencyStop_act.svg</Object>
+    <Object Type="File">048_Trolley_act.svg</Object>
+    <Object Type="File">167_Exit_act.svg</Object>
+    <Object Type="File">371_Voltage_act.svg</Object>
+    <Object Type="File">452_Camera_Savety_act.svg</Object>
+  </Objects>
+</Package>

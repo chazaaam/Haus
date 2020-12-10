@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="GarageContent" height="682" width="1293" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.LanguageSelector" id="LanguageSelector1" top="0" left="-76" width="68" height="57" zIndex="0" />
+    <Widget xsi:type="widgets.brease.GroupBox" id="GroupBoxInfo1" top="7" left="938" width="400" height="822" zIndex="1" childPositioning="relative" fontSize="30px" textAlign="left" style="transparent">
+      <Widgets />
+    </Widget>
+    <Widget xsi:type="widgets.brease.TabControl" id="TabControl1" top="7" left="0" width="1293" height="670" zIndex="2" selectedIndex="1">
+      <Widgets>
+        <Widget xsi:type="widgets.brease.TabItem" id="TabItem1" left="0" width="20" height="39" zIndex="0" cornerRadius="0px" backGroundGradient="none" activeBorderColor="rgba(61, 62, 64, 1)" activeBackGroundGradient="none" enable="false" style="empty">
+          <Widgets>
+            <Widget xsi:type="widgets.brease.GroupBox" id="GroupBox1" top="37" left="1192" width="597" height="781" zIndex="0" childPositioning="relative" style="transparent">
+              <Widgets />
+            </Widget>
+            <Widget xsi:type="widgets.brease.GroupBox" id="GroupBox3" top="37" left="562" width="598" height="781" zIndex="1" childPositioning="relative" style="transparent">
+              <Widgets />
+            </Widget>
+          </Widgets>
+        </Widget>
+        <Widget xsi:type="widgets.brease.TabItem" id="TabItem2" left="0" width="195" height="39" zIndex="1" text="Garage" padding="0px" style="BHS">
+          <Widgets>
+            <Widget xsi:type="widgets.brease.GroupBox" id="GroupBoxMain" top="6" left="0" width="1076" height="649" zIndex="0" childPositioning="relative" cornerRadius="0px" margin="0px 0px 0px 0px" style="transparent">
+              <Widgets>
+                <Widget xsi:type="widgets.brease.GroupBox" id="GroupBoxShuttle8" top="0" left="0" width="260" height="616" zIndex="0" childPositioning="relative" text="Info" cornerRadius="0px" backColor="rgba(240, 241, 241, 1)" headerBackColor="rgba(112, 113, 115, 1)" headerGradient="none" textColor="rgba(255, 255, 255, 1)" fontSize="13px">
+                  <Widgets>
+                    <Widget xsi:type="widgets.brease.CheckBox" id="CheckBoxStapler14" top="2" left="0" width="250" zIndex="0" checkedBoxImage="Media/Images/on.png" disabledCheckedBoxImage="Media/Images/on.png" disabledUncheckedBoxImage="Media/Images/off.png" imageAlign="right" text="Automatisches Schliessen" uncheckedBoxImage="Media/Images/off.png" disabledBorderColor="rgba(51, 51, 51, 1)" disabledTextColor="rgba(0, 0, 0, 1)" textAlign="left" padding="5px 5px 5px 5px" margin="0px 5px 5px 5px" />
+                    <Widget xsi:type="widgets.brease.GroupBox" id="GroupBox7" top="0" left="0" width="260" height="425" zIndex="1" childPositioning="relative" margin="0px 0px 0px 0px" style="transparent">
+                      <Widgets>
+                        <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle1" top="0" left="0" width="240" height="2" zIndex="2" margin="10px 10px" />
+                        <Widget xsi:type="widgets.brease.Label" id="Label32" top="0" left="0" width="146" zIndex="0" breakWord="true" multiLine="true" text="Uhrzeit" margin="5px" />
+                        <Widget xsi:type="widgets.brease.DateTimeInput" id="DateTimeInput1" top="0" left="0" width="88" zIndex="1" format="hh:mm:ss" pickerPosition="center" textAlign="center" margin="5px" />
+                        <Widget xsi:type="widgets.brease.Label" id="Label33" top="0" left="0" width="146" zIndex="3" breakWord="true" multiLine="true" text="Schliesszeit" margin="5px" />
+                        <Widget xsi:type="widgets.brease.DateTimeInput" id="DateTimeInput2" top="0" left="0" width="88" zIndex="4" format="hh:mm:ss" pickerPosition="center" textAlign="center" margin="5px" />
+                      </Widgets>
+                    </Widget>
+                  </Widgets>
+                </Widget>
+                <Widget xsi:type="widgets.brease.GroupBox" id="GroupBoxShuttle29" top="0" left="0" width="795" height="620" zIndex="1" text="Status" cornerRadius="0px" backColor="rgba(240, 241, 241, 1)" headerBackColor="rgba(112, 113, 115, 1)" headerGradient="none" textColor="rgba(255, 255, 255, 1)" fontSize="13px">
+                  <Widgets>
+                    <Widget xsi:type="widgets.brease.ImageList" id="ImageList1" top="3" left="8" width="761" height="571" zIndex="0" imageList="['Media/Images/garageopen.png', 'Media/Images/garageclosed.png']" />
+                    <Widget xsi:type="widgets.brease.MomentaryPushButton" id="MomentaryPushButton1" top="428" left="554" height="75" zIndex="1" image="Media/Visu/VisuStatusButtons/enabled/4.svg" borderWidth="1px" backGroundGradient="none" borderColor="rgba(0, 0, 0, 1)" rotation="90deg" style="Operate" />
+                    <Widget xsi:type="widgets.brease.MomentaryPushButton" id="MomentaryPushButton2" top="316" left="556" height="75" zIndex="2" image="Media/Visu/VisuStatusButtons/enabled/4.svg" borderWidth="1px" backGroundGradient="none" borderColor="rgba(0, 0, 0, 1)" rotation="270deg" style="Operate" />
+                  </Widgets>
+                </Widget>
+              </Widgets>
+            </Widget>
+          </Widgets>
+        </Widget>
+        <Widget xsi:type="widgets.brease.TabItem" id="TabItem3" left="0" width="195" height="39" zIndex="2" text="Recipe" style="BHS" visible="false">
+          <Widgets>
+            <Widget xsi:type="widgets.brease.GroupBox" id="GroupBox9" top="30" left="26" width="703" height="525" zIndex="0" text="Box IDs" cornerRadius="0px" style="bhs">
+              <Widgets>
+                <Widget xsi:type="widgets.brease.ListBox" id="ListBox1" top="0" left="0" width="221" height="485" zIndex="0" dataProvider="[{'value':'0','text':'adda'},{'value':'1','text':'adsd'}]" selectedValue="0" borderWidth="2px" activeBackGroundGradient="linear-gradient(to bottom,rgba(0, 204, 192, 1) 0%,rgba(0, 204, 192, 1) 100%)" />
+                <Widget xsi:type="widgets.brease.GroupBox" id="GroupBoxShuttle26" top="50" left="345" width="312" height="365" zIndex="1" childPositioning="relative" text="Box Daten" cornerRadius="8px 8px 0px 0px" backColor="rgba(240, 241, 241, 1)" headerBackColor="rgba(112, 113, 115, 1)" headerGradient="none" textColor="rgba(255, 255, 255, 1)" fontSize="13px">
+                  <Widgets>
+                    <Widget xsi:type="widgets.brease.GroupBox" id="GroupBox8" top="0" left="0" width="295" height="266" zIndex="0" childPositioning="relative" borderColor="rgba(0, 0, 0, 1)" margin="5px 0px 12px 5px" style="transparent">
+                      <Widgets>
+                        <Widget xsi:type="widgets.brease.Label" id="Label75" top="0" left="0" width="105" zIndex="1" text="Bezeichnung:" textAlign="left" padding="0px" margin="10px 10px 0px 5px" />
+                        <Widget xsi:type="widgets.brease.TextInput" id="TextInput1" top="0" left="0" width="164" zIndex="4" value="Palette frontal" textAlign="right" padding="0px 5px 0px 5px" margin="10px 0px 4px 10px" style="bhs" />
+                        <Widget xsi:type="widgets.brease.Label" id="Label74" top="0" left="0" width="105" zIndex="11" text="Box ID:" padding="0px" margin="10px 10px 0px 5px" />
+                        <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput443" top="0" left="0" width="164" zIndex="0" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':0,'minimumIntegerDigits':1}}" maxValue="999999" margin="10px 0px 4px 10px" style="bhs" />
+                        <Widget xsi:type="widgets.brease.Label" id="Label76" top="0" left="0" width="105" zIndex="3" text="Fork Distance:" textAlign="left" padding="0px" margin="10px 10px 0px 5px" />
+                        <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput61" top="0" left="0" width="164" zIndex="2" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':0,'minimumIntegerDigits':1}}" maxValue="999999" margin="10px 0px 4px 10px" style="bhs" />
+                        <Widget xsi:type="widgets.brease.Label" id="Label77" top="0" left="0" width="105" zIndex="6" text="Box Height:" textAlign="left" padding="0px" margin="10px 10px 0px 5px" />
+                        <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput64" top="0" left="0" width="164" zIndex="5" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':0,'minimumIntegerDigits':1}}" maxValue="999999" margin="10px 0px 4px 10px" style="bhs" />
+                        <Widget xsi:type="widgets.brease.Label" id="Label78" top="0" left="0" width="105" zIndex="8" text="Offset Get:" textAlign="left" padding="0px" margin="10px 10px 0px 5px" />
+                        <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput67" top="0" left="0" width="164" zIndex="7" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':0,'minimumIntegerDigits':1}}" maxValue="999999" margin="10px 0px 4px 10px" style="bhs" />
+                        <Widget xsi:type="widgets.brease.Label" id="Label79" top="0" left="0" width="105" zIndex="10" text="Offset Put:" textAlign="left" padding="0px" margin="10px 10px 0px 5px" />
+                        <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput244" top="0" left="0" width="164" zIndex="9" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':0,'minimumIntegerDigits':1}}" maxValue="999999" margin="10px 0px 4px 10px" style="bhs" />
+                      </Widgets>
+                    </Widget>
+                  </Widgets>
+                </Widget>
+                <Widget xsi:type="widgets.brease.GroupBox" id="GroupBox10" top="7" left="274" width="2" height="471" zIndex="2" backColor="rgba(255, 255, 255, 0)" borderColor="rgba(0, 0, 0, 1)">
+                  <Widgets />
+                </Widget>
+              </Widgets>
+            </Widget>
+          </Widgets>
+        </Widget>
+        <Widget xsi:type="widgets.brease.TabItem" id="TabItem4" left="0" width="1490" zIndex="3" enable="false" style="empty">
+          <Widgets />
+        </Widget>
+      </Widgets>
+    </Widget>
+  </Widgets>
+</Content>

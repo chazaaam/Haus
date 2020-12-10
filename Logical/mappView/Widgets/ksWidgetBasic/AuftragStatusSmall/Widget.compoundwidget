@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CompoundWidget id="AuftragStatusSmall" width="575" height="50" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+<Widget xsi:type="widgets.brease.GroupBox" id="GroupBoxCompound" top="0" left="0" width="575" height="50" zIndex="4" borderWidth="0px" style="transparent">
+  <Widgets>
+      <Widget xsi:type="widgets.brease.Label" id="Label1" top="0" left="2" width="39" height="41" zIndex="1" text="1" textColor="rgba(61, 62, 64, 1)" textAlign="center" fontSize="16px" padding="0px" />
+    <Widget xsi:type="widgets.brease.Label" id="Label2" top="0" left="88" width="39" height="41" zIndex="2" text="1" textColor="rgba(61, 62, 64, 1)" textAlign="center" fontSize="16px" />
+    <Widget xsi:type="widgets.brease.Label" id="Label3" top="0" left="172" width="39" height="41" zIndex="3" text="3" textColor="rgba(61, 62, 64, 1)" textAlign="center" fontSize="16px" />
+    <Widget xsi:type="widgets.brease.Label" id="Label4" top="0" left="257" width="39" height="41" zIndex="4" text="4" textColor="rgba(61, 62, 64, 1)" textAlign="center" fontSize="16px" />
+    <Widget xsi:type="widgets.brease.Line" id="Line1" zIndex="6" x1="41" x2="89" y1="20" y2="20" lineColor="rgba(177, 178, 179, 1)" lineWidth="3px" />
+    <Widget xsi:type="widgets.brease.Line" id="Line2" zIndex="7" x1="125" x2="173" y1="20" y2="20" lineColor="rgba(177, 178, 179, 1)" lineWidth="3px" />
+    <Widget xsi:type="widgets.brease.Line" id="Line3" zIndex="8" x1="210" x2="258" y1="20" y2="20" lineColor="rgba(177, 178, 179, 1)" lineWidth="3px" />
+    <Widget xsi:type="widgets.brease.RadioButtonGroup" id="RadioButtonGroupStatus" top="0" left="2" width="381" height="41" zIndex="0">
+      <Widgets>
+        <Widget xsi:type="widgets.brease.RadioButton" id="RadioButton1" top="0" left="0" width="41" height="41" zIndex="0" boxSize="41" checkedBoxImage="Media/Visu/VisuStatusButtons/190_Circle_act.svg" disabledCheckedBoxImage="Media/Visu/VisuStatusButtons/190_Circle_act.svg" disabledUncheckedBoxImage="Media/Visu/VisuStatusButtons/190_Circle_ena.svg" uncheckedBoxImage="Media/Visu/VisuStatusButtons/190_Circle_ena.svg" disabledBackColor="rgba(255, 255, 255, 0)" margin="0px" />
+        <Widget xsi:type="widgets.brease.RadioButton" id="RadioButton2" top="0" left="85" width="41" height="41" zIndex="1" boxSize="41" checkedBoxImage="Media/Visu/VisuStatusButtons/190_Circle_act.svg" disabledCheckedBoxImage="Media/Visu/VisuStatusButtons/190_Circle_act.svg" disabledUncheckedBoxImage="Media/Visu/VisuStatusButtons/190_Circle_ena.svg" uncheckedBoxImage="Media/Visu/VisuStatusButtons/190_Circle_ena.svg" disabledBackColor="rgba(255, 255, 255, 0)" margin="0px" />
+        <Widget xsi:type="widgets.brease.RadioButton" id="RadioButton3" top="0" left="169" width="41" height="41" zIndex="2" boxSize="41" checkedBoxImage="Media/Visu/VisuStatusButtons/190_Circle_act.svg" disabledCheckedBoxImage="Media/Visu/VisuStatusButtons/190_Circle_act.svg" disabledUncheckedBoxImage="Media/Visu/VisuStatusButtons/190_Circle_ena.svg" uncheckedBoxImage="Media/Visu/VisuStatusButtons/190_Circle_ena.svg" disabledBackColor="rgba(255, 255, 255, 0)" margin="0px" />        
+        <Widget xsi:type="widgets.brease.RadioButton" id="RadioButton4" top="0" left="254" width="41" height="41" zIndex="3" boxSize="41" checkedBoxImage="Media/Visu/VisuStatusButtons/190_Circle_act.svg" disabledCheckedBoxImage="Media/Visu/VisuStatusButtons/190_Circle_act.svg" disabledUncheckedBoxImage="Media/Visu/VisuStatusButtons/190_Circle_ena.svg" uncheckedBoxImage="Media/Visu/VisuStatusButtons/190_Circle_ena.svg" disabledBackColor="rgba(255, 255, 255, 0)" margin="0px" />
+      </Widgets>
+    </Widget>
+  </Widgets>
+</Widget>
+  </Widgets>
+  <Properties>
+  <!-- Binding Radio Button -->
+  	<Property xsi:type="BindableProperty" name="RadioButton1" type="Number" category="Data" defaultValue="0" readOnly="false" required="false" > 
+		<Description>VariablenMapping des RadioButton 1</Description>
+		<Mappings>  
+			<Mapping widget="RadioButton1" property="value"  mode="oneWay" />
+		</Mappings>  
+	</Property>  
+    <Property xsi:type="BindableProperty" name="RadioButton2" type="Number" category="Data" defaultValue="0" readOnly="false" required="false" > 
+		<Description>VariablenMapping des RadioButton 2</Description>
+		<Mappings>  
+			<Mapping widget="RadioButton2" property="value"  mode="oneWay" />
+		</Mappings>  
+	</Property>  
+    <Property xsi:type="BindableProperty" name="RadioButton3" type="Number" category="Data" defaultValue="0" readOnly="false" required="false" > 
+		<Description>VariablenMapping des RadioButton 3</Description>
+		<Mappings>  
+			<Mapping widget="RadioButton3" property="value"  mode="oneWay" />
+		</Mappings>  
+	</Property>   
+    <Property xsi:type="BindableProperty" name="RadioButton4" type="Number" category="Data" defaultValue="0" readOnly="false" required="false" > 
+		<Description>VariablenMapping des RadioButton 4</Description>
+		<Mappings>  
+			<Mapping widget="RadioButton4" property="value"  mode="oneWay" />
+		</Mappings>  
+	</Property>
+    <!-- Binding Text -->
+    <Property xsi:type="NonBindableProperty" name="Text1" type="String" category="Data" defaultValue="1" required="false" > 
+		<Description>VariablenMapping des Text 1</Description>
+		<Mappings>  
+			<Mapping widget="Label1" property="text"/>
+		</Mappings>  
+	</Property>  
+    <Property xsi:type="NonBindableProperty" name="Text2" type="String" category="Data" defaultValue="2" required="false" > 
+		<Description>VariablenMapping des Text 2</Description>
+		<Mappings>  
+			<Mapping widget="Label2" property="text"/>
+		</Mappings>  
+	</Property>  
+    <Property xsi:type="NonBindableProperty" name="Text3" type="String" category="Data" defaultValue="3" required="false" > 
+		<Description>VariablenMapping des Text 3</Description>
+		<Mappings>  
+			<Mapping widget="Label3" property="text"/>
+		</Mappings>  
+	</Property>   
+    <Property xsi:type="NonBindableProperty" name="Text4" type="String" category="Data" defaultValue="4" required="false" > 
+		<Description>VariablenMapping des Text 4</Description>
+		<Mappings>  
+			<Mapping widget="Label4" property="text"/>
+		</Mappings>  
+	</Property>   
+ 
+  
+    <!-- 
+    Simple non bindable property:
+    Property Attributes
+    xsi:type: NonBindableProperty
+    name: name of the property (not allowed: width, height, top, left, id, enable, visible, zindex, margin, premissionview, permissionoperate, description)
+    <Property xsi:type="NonBindableProperty" name="" type="" defaultValue="" required="">
+      <Description>Desciption will be shown in property grid.</Description>
+      <Mappings>
+        <Mapping widget="" property=""/>
+        <Mapping widget="" property=""/>
+      </Mappings>
+    </Property>
+    
+    Simple bindable property:
+    <Property xsi:type="BindableProperty" name="" type="" defaultValue="" readOnly="" required="" category="" localizable="" typeRefId="" nodeRefId="">
+      <Description>Desciption will be shown in property grid.</Description>
+      <Mappings>
+        <Mapping widget="" property="" mode=""/>
+        <Mapping widget="" property="" mode=""/>
+      </Mappings>
+    </Property>
+
+
+    Structure bindable property:
+		<Property xsi:type="StructureBindableProperty" name="" type="" readOnly="" required="" >
+			<Description>Desciption will be shown in property grid.</Description>
+			<Mappings>
+				<Mapping widget="" type="" property="" mode="" memberPath="" mapToNode=""/>
+				<Mapping widget="" type="" property="" mode="" memberPath="" mapToNode=""/>
+				<Mapping widget="" type="" property="" mode="" memberPath="" mapToNode=""/>
+			</Mappings>
+		</Property>
+    -->
+  </Properties>
+
+  <Events>
+    <!--
+    <Event name="">
+      <Description>Desciption will be shown in property grid.</Description>
+      <Mappings>
+        <Mapping widget="" event="" />
+      </Mappings>
+    </Event>
+    -->
+  </Events>
+
+  <Actions>
+    <!--
+    <Action name="">
+      <Description>Desciption will be shown in property grid.</Description>
+      <Mappings>
+        <Mapping widget="" action="" />
+      </Mappings>
+    </Action>
+    -->
+  </Actions>
+
+  <EventBindings>
+    <!-- source and target can only be widgets within the compound widget.
+    <EventBinding id="">
+      <Source xsi:type="widget.Event" widgetRefId="" event="" />
+      <EventHandler condition="">
+        <Action>
+          <Target xsi:type="widget.Action" widgetRefId="">
+            <Method name="" value="" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    -->
+  </EventBindings>
+
+</CompoundWidget>

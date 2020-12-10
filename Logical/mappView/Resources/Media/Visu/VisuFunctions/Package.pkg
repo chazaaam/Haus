@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.8.3.111 SP?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="File">074_Update_ena.svg</Object>
+    <Object Type="File">173_Info_ena.svg</Object>
+    <Object Type="File">175_User_Management_ena.svg</Object>
+    <Object Type="File">180_Maintenance_ena.svg</Object>
+    <Object Type="File">040_Settings_ena.svg</Object>
+    <Object Type="File">167_Exit_ena.svg</Object>
+    <Object Type="File">369_Speed_Control_ena.svg</Object>
+  </Objects>
+</Package>

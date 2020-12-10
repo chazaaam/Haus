@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<BR.AS.HardwareTopology Version="0.0.0.1">
+  <TimeStamps>
+    <TimeStamp LogicalPath="iCMSLight.Hardware.hw" LastWriteTime="11/05/2020 11:23:54" />
+  </TimeStamps>
+  <Modules>
+    <Module Name="X20SL8100" Type="X20SL8100" X="100" Y="268" />
+    <Module Name="X20TB52" Type="X20TB52" X="147" Y="295" />
+    <Module Name="X20MK0211" Type="X20MK0211" X="103" Y="338" />
+    <Module Name="X20BM33" Type="X20BM33" X="250" Y="100" />
+    <Module Name="X20SI9100" Type="X20SI9100" X="250" Y="100" />
+    <Module Name="X20TB52b" Type="X20TB52" X="263" Y="126" />
+    <Module Name="X20TB52a" Type="X20TB52" X="250" Y="126" />
+    <Module Name="X20CP1584" Type="X20CP1584" X="100" Y="100" />
+    <Module Name="X20IF10E1_1" Type="X20IF10E1-1" X="212" Y="100" />
+    <Module Name="MR10" Type="openSAFETYoverUDPTunnel" X="386" Y="518" />
+    <Module Name="MR10_2" Type="openSAFETYoverUDPTunnel" X="496" Y="518" />
+    <Module Name="MR10_3" Type="openSAFETYoverUDPTunnel" X="936" Y="518" />
+    <Module Name="MR2" Type="openSAFETYoverUDPTunnel" X="716" Y="518" />
+    <Module Name="MR2_2" Type="openSAFETYoverUDPTunnel" X="826" Y="518" />
+    <Module Name="MR4" Type="openSAFETYoverUDPTunnel" X="276" Y="518" />
+    <Module Name="MR7" Type="openSAFETYoverUDPTunnel" X="606" Y="518" />
+    <Module Name="OpcUa_MR10_3Status" Type="OpcUa_any" X="3566" Y="518" />
+    <Module Name="OpcUa_Schaelstation1" Type="OpcUa_any" X="1886" Y="518" />
+    <Module Name="OpcUa_Shuttle2" Type="OpcUa_any" X="1466" Y="518" />
+    <Module Name="OpcUa_Transferstation1" Type="OpcUa_any" X="3426" Y="518" />
+    <Module Name="PN_PN_Coupler_X2a" Type="FBD.Hilscher.PNIOGenDevDTM2.PN$002FPN Coupler X2" X="276" Y="418" />
+  </Modules>
+  <Links>
+    <Link From="MR10" To="MR4" FromPort="ETH1" ToPort="ETH2" IsRoutedByUser="False">
+      <Point X="423" Y="592" />
+      <Point X="423" Y="592" />
+      <Point X="447" Y="592" />
+      <Point X="455" Y="592" />
+      <Point X="455" Y="632" />
+      <Point X="313" Y="632" />
+      <Point X="313" Y="618" />
+      <Point X="313" Y="607" />
+      <Point X="313" Y="607" />
+    </Link>
+    <Link From="MR10" To="MR10_2" FromPort="ETH2" ToPort="ETH1" IsRoutedByUser="False">
+      <Point X="423" Y="607" />
+      <Point X="423" Y="607" />
+      <Point X="423" Y="618" />
+      <Point X="423" Y="639" />
+      <Point X="565" Y="639" />
+      <Point X="565" Y="592" />
+      <Point X="557" Y="592" />
+      <Point X="533" Y="592" />
+      <Point X="533" Y="592" />
+    </Link>
+    <Link From="MR10_2" To="MR7" FromPort="ETH2" ToPort="ETH1" IsRoutedByUser="False">
+      <Point X="533" Y="607" />
+      <Point X="533" Y="607" />
+      <Point X="533" Y="618" />
+      <Point X="533" Y="632" />
+      <Point X="675" Y="632" />
+      <Point X="675" Y="592" />
+      <Point X="667" Y="592" />
+      <Point X="643" Y="592" />
+      <Point X="643" Y="592" />
+    </Link>
+    <Link From="MR10_3" To="MR2_2" FromPort="ETH1" ToPort="ETH2" IsRoutedByUser="False">
+      <Point X="973" Y="592" />
+      <Point X="973" Y="592" />
+      <Point X="997" Y="592" />
+      <Point X="1005" Y="592" />
+      <Point X="1005" Y="632" />
+      <Point X="863" Y="632" />
+      <Point X="863" Y="618" />
+      <Point X="863" Y="607" />
+      <Point X="863" Y="607" />
+    </Link>
+    <Link From="MR10_3" To="OpcUa_Shuttle2" FromPort="ETH2" ToPort="ETH1" IsRoutedByUser="False">
+      <Point X="973" Y="607" />
+      <Point X="973" Y="607" />
+      <Point X="973" Y="618" />
+      <Point X="973" Y="625" />
+      <Point X="1500" Y="625" />
+      <Point X="1500" Y="569" />
+      <Point X="1500" Y="562" />
+      <Point X="1500" Y="562" />
+    </Link>
+    <Link From="MR2" To="MR7" FromPort="ETH1" ToPort="ETH2" IsRoutedByUser="False">
+      <Point X="753" Y="592" />
+      <Point X="753" Y="592" />
+      <Point X="777" Y="592" />
+      <Point X="785" Y="592" />
+      <Point X="785" Y="639" />
+      <Point X="643" Y="639" />
+      <Point X="643" Y="618" />
+      <Point X="643" Y="607" />
+      <Point X="643" Y="607" />
+    </Link>
+    <Link From="MR2" To="MR2_2" FromPort="ETH2" ToPort="ETH1" IsRoutedByUser="False">
+      <Point X="753" Y="607" />
+      <Point X="753" Y="607" />
+      <Point X="753" Y="618" />
+      <Point X="753" Y="625" />
+      <Point X="895" Y="625" />
+      <Point X="895" Y="592" />
+      <Point X="887" Y="592" />
+      <Point X="863" Y="592" />
+      <Point X="863" Y="592" />
+    </Link>
+    <Link From="MR4" To="X20CP1584" FromPort="ETH1" ToPort="IF2" IsRoutedByUser="False">
+      <Point X="313" Y="592" />
+      <Point X="313" Y="592" />
+      <Point X="337" Y="592" />
+      <Point X="345" Y="592" />
+      <Point X="345" Y="505" />
+      <Point X="265" Y="505" />
+      <Point X="265" Y="255" />
+      <Point X="132" Y="255" />
+      <Point X="132" Y="200" />
+      <Point X="132" Y="187" />
+      <Point X="132" Y="187" />
+    </Link>
+    <Link From="OpcUa_MR10_3Status" To="OpcUa_Transferstation1" FromPort="ETH1" ToPort="ETH2" IsRoutedByUser="False">
+      <Point X="3600" Y="562" />
+      <Point X="3600" Y="562" />
+      <Point X="3600" Y="569" />
+      <Point X="3600" Y="575" />
+      <Point X="3485" Y="575" />
+      <Point X="3485" Y="569" />
+      <Point X="3485" Y="562" />
+      <Point X="3485" Y="562" />
+    </Link>
+    <Link From="OpcUa_Schaelstation1" To="OpcUa_Shuttle2" FromPort="ETH1" ToPort="ETH2" IsRoutedByUser="False">
+      <Point X="1920" Y="562" />
+      <Point X="1920" Y="562" />
+      <Point X="1920" Y="569" />
+      <Point X="1920" Y="575" />
+      <Point X="1525" Y="575" />
+      <Point X="1525" Y="569" />
+      <Point X="1525" Y="562" />
+      <Point X="1525" Y="562" />
+    </Link>
+    <Link From="OpcUa_Schaelstation1" To="OpcUa_Transferstation1" FromPort="ETH2" ToPort="ETH1" IsRoutedByUser="False">
+      <Point X="1945" Y="562" />
+      <Point X="1945" Y="562" />
+      <Point X="1945" Y="569" />
+      <Point X="1945" Y="575" />
+      <Point X="3460" Y="575" />
+      <Point X="3460" Y="569" />
+      <Point X="3460" Y="562" />
+      <Point X="3460" Y="562" />
+    </Link>
+    <Link From="PN_PN_Coupler_X2a" To="X20IF10E1_1" FromPort="PN1" ToPort="IF1" IsRoutedByUser="False">
+      <Point X="295" Y="457" />
+      <Point X="295" Y="457" />
+      <Point X="295" Y="469" />
+      <Point X="295" Y="475" />
+      <Point X="226" Y="475" />
+      <Point X="226" Y="200" />
+      <Point X="226" Y="191" />
+      <Point X="226" Y="191" />
+    </Link>
+    <Link From="X20CP1584" To="X20SL8100" FromPort="IF3" ToPort="PLK1" IsRoutedByUser="False">
+      <Point X="156" Y="187" />
+      <Point X="156" Y="187" />
+      <Point X="156" Y="200" />
+      <Point X="156" Y="205" />
+      <Point X="175" Y="205" />
+      <Point X="175" Y="375" />
+      <Point X="122" Y="375" />
+      <Point X="122" Y="369" />
+      <Point X="122" Y="342" />
+      <Point X="137" Y="342" />
+    </Link>
+  </Links>
+  <InfoElements />
+</BR.AS.HardwareTopology>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.8.3.111 SP?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="File">449_Preparer_ena.svg</Object>
+    <Object Type="File">374_Trolley_SideView_ena.svg</Object>
+    <Object Type="File">201_Spray_top_ena.svg</Object>
+    <Object Type="File" Description="496_Robot_ena.svg">496_Robot_ena.svg</Object>
+    <Object Type="File" Description="447_Lifter_ena.svg">447_Lifter_ena.svg</Object>
+  </Objects>
+</Package>

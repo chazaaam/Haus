@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.8.3.111 SP?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="File">085_Checkmark_ena_blue.svg</Object>
+    <Object Type="File">empty.svg</Object>
+  </Objects>
+</Package>

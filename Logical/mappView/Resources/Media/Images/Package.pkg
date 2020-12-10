@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.8.3.111 SP?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="File">off.png</Object>
+    <Object Type="File">on.png</Object>
+    <Object Type="Package">IO</Object>
+    <Object Type="File">onText.png</Object>
+    <Object Type="File">offText.png</Object>
+    <Object Type="File">loading.gif</Object>
+    <Object Type="File">LoginUnlocked.png</Object>
+    <Object Type="File">LoginLocked.png</Object>
+    <Object Type="File">reload.png</Object>
+    <Object Type="Package">BHS</Object>
+    <Object Type="File">stapler.png</Object>
+    <Object Type="File">Leerer Platz.png</Object>
+    <Object Type="File">reload1.png</Object>
+    <Object Type="File">Leerer Platz1.png</Object>
+    <Object Type="File">take-out-button.png</Object>
+    <Object Type="File">put-in-button.png</Object>
+    <Object Type="File">pumpe.png</Object>
+    <Object Type="File">rohr.png</Object>
+    <Object Type="File">roof.png</Object>
+    <Object Type="File">garageclosed.png</Object>
+    <Object Type="File">garageopen.png</Object>
+  </Objects>
+</Package>

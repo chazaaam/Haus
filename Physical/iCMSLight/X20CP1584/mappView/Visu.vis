@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<vdef:Visualization id="Visu" xmlns:vdef="http://www.br-automation.com/iat2015/visualizationDefinition/v2">
+	<StartPage pageRefId="page_Homescreen" />
+  	<Pages>
+	    <Page refId="page_Homescreen"/>
+	    <Page refId="page_Alarm1"/>
+	    <Page refId="page_Solarpumpe"/>
+		<Page refId="page_Diag"/>
+		<Page refId="page_Garage"/>
+    
+	</Pages>
+  	<Navigations>
+    	<!--<Navigation refId="" />-->
+  	</Navigations>  	
+	<BindingsSets>
+  		<BindingsSet refId="binding_00_Main" />
+		<BindingsSet refId="binding_01_Session" />
+	</BindingsSets>
+	<EventBindingsSets> 
+    	<EventBindingsSet refId="FooterContent1_eventbinding" />
+	</EventBindingsSets>
+	<Dialogs>
+		<!--<Dialog refId="" />-->
+  	</Dialogs>
+  	<Contents>
+    	<!--<Content refId="" />-->
+  	</Contents>
+  	<SnippetsSets>
+    	<!--<SnippetsSet refId=""/>-->
+  	</SnippetsSets>
+  	<ExpressionsSets>
+    	<!--<ExpressionsSet refId=""/>-->
+  	</ExpressionsSets>
+  	<VariablesSets>
+		<VariablesSet refId="svar_System" />
+  	</VariablesSets>
+  	<StartTheme themeRefId="BuRTheme1" />
+	<Themes>
+    	<Theme refId="BuRTheme1"/>
+	</Themes>
+	<Configurations>
+	    <Configuration key="activityCount" value="false" />
+	    <Configuration key="zoom" value="true" />
+	    <Configuration key="favicon" value="Media/Visu/VisuLogo/BHSLogo.png" />
+	    <Configuration key="bootLogo" value="Media/Visu/VisuLogo/BHS_Logo_BHS_Intralogistic_4c_Weissraum.jpg" />
+	    <Configuration key="bootColor" value="#FFFFFF" />
+	  	<Gestures>
+			<!--<SystemGesture1 touchPoints="2" />
+			<SystemGesture2 touchPoints="2" />
+			<SystemGesture3 touchPoints="2" />-->
+		</Gestures>
+		<VirtualKeyboards>
+			<!--<InputProcessing onKeyDown="false" />-->
+		</VirtualKeyboards>
+	</Configurations>
+</vdef:Visualization>

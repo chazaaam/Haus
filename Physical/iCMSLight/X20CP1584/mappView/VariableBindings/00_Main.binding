@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BindingsSet id="binding_00_Main" xmlns="http://www.br-automation.com/iat2015/binding/engineering/v2" xmlns:bt="http://www.br-automation.com/iat2015/bindingListTypes/engineering/v2" xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <Bindings> 
+		
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Solarpumpe:Mem.DachSollTemp" attribute="node" />
+<Target xsi:type="brease" contentRefId="SolarpumpeContent" widgetRefId="NumericInputSollDach" attribute="node" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Solarpumpe:Mem.RuecklaufSollTemp" attribute="node" />
+<Target xsi:type="brease" contentRefId="SolarpumpeContent" widgetRefId="NumericInput3" attribute="node" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Solarpumpe:Mem.KesselSollTemp" attribute="node" />
+<Target xsi:type="brease" contentRefId="SolarpumpeContent" widgetRefId="NumericInput2" attribute="node" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Solarpumpe:IO.Input.KesselTemp" attribute="node" />
+<Target xsi:type="brease" contentRefId="SolarpumpeContent" widgetRefId="LinearGauge2" attribute="node" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Solarpumpe:IO.Input.RuecklaufTemp" attribute="node" />
+<Target xsi:type="brease" contentRefId="SolarpumpeContent" widgetRefId="LinearGauge3" attribute="node" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Solarpumpe:IO.Input.DachTemp" attribute="node" />
+<Target xsi:type="brease" contentRefId="SolarpumpeContent" widgetRefId="LinearGauge1" attribute="node" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Solarpumpe:Visu.PumpeDownStyle" attribute="value" />
+<Target xsi:type="brease" contentRefId="SolarpumpeContent" widgetRefId="Image6" attribute="style" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Solarpumpe:Visu.PumpeUpStyle" attribute="value" />
+<Target xsi:type="brease" contentRefId="SolarpumpeContent" widgetRefId="Image7" attribute="style" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Solarpumpe:Mem.Aktiv" attribute="value" />
+<Target xsi:type="brease" contentRefId="SolarpumpeContent" widgetRefId="CheckBoxStapler118" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Solarpumpe:Mem.DachSollTemp" attribute="node" />
+<Target xsi:type="brease" contentRefId="SolarpumpeContent" widgetRefId="LinearGauge1" attribute="scaleArea2Node" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Solarpumpe:Mem.RuecklaufSollTemp" attribute="node" />
+<Target xsi:type="brease" contentRefId="SolarpumpeContent" widgetRefId="LinearGauge3" attribute="scaleArea2Node" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Solarpumpe:Mem.KesselSollTemp" attribute="node" />
+<Target xsi:type="brease" contentRefId="SolarpumpeContent" widgetRefId="LinearGauge2" attribute="scaleArea2Node" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Solarpumpe:Mem.RuecklaufTimeOffset" attribute="value" />
+<Target xsi:type="brease" contentRefId="SolarpumpeContent" widgetRefId="DateTimeInput1" attribute="value" />
+</Binding>
+</Bindings>
+</BindingsSet>
+		
+		
+		
+

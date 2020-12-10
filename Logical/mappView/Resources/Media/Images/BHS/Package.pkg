@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.8.3.111 SP?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="File">074_Update.png</Object>
+    <Object Type="File">cancel.png</Object>
+    <Object Type="File">OK.png</Object>
+    <Object Type="File">OKinverted.png</Object>
+    <Object Type="File">cancelinverted.png</Object>
+    <Object Type="File">circle.png</Object>
+    <Object Type="File">Logout.png</Object>
+    <Object Type="File">Login.png</Object>
+    <Object Type="File">Home.png</Object>
+    <Object Type="File">Settings.png</Object>
+    <Object Type="File">help.png</Object>
+    <Object Type="File">helpsmall.png</Object>
+    <Object Type="File">info.png</Object>
+    <Object Type="File">warning.png</Object>
+    <Object Type="Package">Alarme</Object>
+  </Objects>
+</Package>

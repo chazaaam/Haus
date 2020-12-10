@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.8.3.111 SP?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="File" Description="004_Arrow_rit_ena.svg">4.svg</Object>
+    <Object Type="File" Description="008_Arrow_Take_ena.svg">8.svg</Object>
+    <Object Type="File" Description="009_Arrow_Drop_ena.svg">9.svg</Object>
+    <Object Type="File" Description="010_AutomaticMode_ena.svg">10.svg</Object>
+    <Object Type="File" Description="013_AutomaticTurn_lef_ena.svg">13.svg</Object>
+    <Object Type="File" Description="014_AutomaticTurn_rit_ena.svg">14.svg</Object>
+    <Object Type="File" Description="024_ManualMode_ena.svg">24.svg</Object>
+    <Object Type="File" Description="031_Pusher_ena.svg">31.svg</Object>
+    <Object Type="File" Description="032_Pusher_bot_ena.svg">32.svg</Object>
+    <Object Type="File" Description="035_ReelStand_rit_ena.svg">35.svg</Object>
+    <Object Type="File" Description="044_Switch_ena.svg">44.svg</Object>
+    <Object Type="File" Description="045_Switch_On_ena.svg">45.svg</Object>
+    <Object Type="File" Description="048_Trolley_ena.svg">48.svg</Object>
+    <Object Type="File" Description="075_Flute_ena.svg">75.svg</Object>
+    <Object Type="File" Description="106_Belt_ena.svg">106.svg</Object>
+    <Object Type="File" Description="142_Length_ena.svg">142.svg</Object>
+    <Object Type="File" Description="173_Info_ena.svg">173.svg</Object>
+    <Object Type="File" Description="190_Circle_ena.svg">190.svg</Object>
+    <Object Type="File" Description="201_Spray_ena.svg">201.svg</Object>
+    <Object Type="File" Description="203_Center_ena.svg">203.svg</Object>
+    <Object Type="File" Description="208_ZeroPoint_ena.svg">208.svg</Object>
+    <Object Type="File" Description="374_Trolley_SideView_ena.svg">374.svg</Object>
+    <Object Type="File" Description="359_Quality_ena.svg">359.svg</Object>
+    <Object Type="File" Description="390_Weight_ena.svg">390.svg</Object>
+    <Object Type="File" Description="435_AutomaticHelp_ena.svg">435.svg</Object>
+    <Object Type="File" Description="447_Lifter_ena.svg">447.svg</Object>
+    <Object Type="File" Description="449_Preparer_ena.svg">449.svg</Object>
+    <Object Type="File" Description="465_ClampHeight_ena.svg">465.svg</Object>
+    <Object Type="File" Description="495_Diameter_ena.svg">495.svg</Object>
+    <Object Type="File" Description="496_Robot_ena.svg">496.svg</Object>
+  </Objects>
+</Package>

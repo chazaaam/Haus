@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.4.5.61 SP?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="File">224_Warning_act.svg</Object>
+    <Object Type="File">224_Warning_ena.svg</Object>
+    <Object Type="File">226_Attention_act.svg</Object>
+    <Object Type="File">180_Maintenance_act.svg</Object>
+  </Objects>
+</Package>

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="AlarmContent1" height="682" width="1366" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.TabControl" id="TabControl1" top="15" left="0" width="1366" height="670" zIndex="0" selectedIndex="1">
+      <Widgets>
+        <Widget xsi:type="widgets.brease.TabItem" id="TabItem1" left="0" width="20" height="39" zIndex="0" style="empty">
+          <Widgets />
+        </Widget>
+        <Widget xsi:type="widgets.brease.TabItem" id="TabItem2" left="0" width="195" height="39" zIndex="1" text="Alarme" style="BHS">
+          <Widgets>
+            <Widget xsi:type="widgets.brease.AlarmList" id="AlarmList2" top="10" left="0" width="1366" height="617" zIndex="0" format="HH:mm | dd.MM.yyyy" imageSuffix=".svg" itemsPerPage="12" borderStyle="solid" borderColor="rgba(0, 0, 0, 1)" backColorSelectedRow="rgba(0, 204, 192, 1)" sortingButtonActiveColor="rgba(0, 204, 192, 1)" shadow="4px 4px 14px rgba(0, 0, 0, 1)" headerTextAlign="left" textAlign="left">
+              <Widgets>
+                <Widget xsi:type="widgets.brease.AlarmListItem" id="AlarmListItem4" width="150" zIndex="0" columnType="timestamp" text="Datum" />
+                <Widget xsi:type="widgets.brease.AlarmListItem" id="AlarmListItem5" width="1010" zIndex="1" text="Text" />
+                <Widget xsi:type="widgets.brease.AlarmListItem" id="AlarmListItem6" zIndex="2" columnType="name" text="Nr." />
+              </Widgets>
+            </Widget>
+            <Widget xsi:type="widgets.brease.Button" id="Button2" top="582" left="4" width="171" zIndex="1" text="Quittieren" imageHeight="30" textAlign="left" padding="0px 0px" />
+            <Widget xsi:type="widgets.brease.Button" id="ButtonFilter3" top="11" left="829" width="103" zIndex="2" text="Filter" cornerRadius="0px 0px 30px 30px" />
+          </Widgets>
+        </Widget>
+        <Widget xsi:type="widgets.brease.TabItem" id="TabItem3" left="0" width="195" height="39" zIndex="2" text="History" style="BHS">
+          <Widgets>
+            <Widget xsi:type="widgets.brease.AlarmHistory" id="AlarmHistory2" top="10" left="0" width="1366" height="617" zIndex="0" format="HH:mm | dd.MM.yyyy" imageSuffix=".svg" itemsPerPage="12" borderStyle="solid" borderColor="rgba(0, 0, 0, 1)" backColorSelectedRow="rgba(0, 204, 192, 1)" sortingButtonActiveColor="rgba(0, 204, 192, 1)">
+              <Widgets>
+                <Widget xsi:type="widgets.brease.AlarmHistoryItem" id="AlarmHistoryItem4" width="150" zIndex="0" columnType="timestamp" text="Datum" />
+                <Widget xsi:type="widgets.brease.AlarmHistoryItem" id="AlarmHistoryItem5" width="150" zIndex="1" columnType="name" text="Nr." />
+                <Widget xsi:type="widgets.brease.AlarmHistoryItem" id="AlarmHistoryItem7" width="959" zIndex="2" text="Text" />
+                <Widget xsi:type="widgets.brease.AlarmHistoryItem" id="AlarmHistoryItem8" width="105" zIndex="3" columnType="new state" text="Status" />
+              </Widgets>
+            </Widget>
+            <Widget xsi:type="widgets.brease.Button" id="ButtonFilter2" top="11" left="825" width="103" zIndex="2" text="Filter" cornerRadius="0px 0px 30px 30px" />
+            <Widget xsi:type="widgets.brease.PushButton" id="PushButton2" top="11" left="718" width="103" zIndex="1" text="Datei" cornerRadius="0px 0px 30px 30px" />
+          </Widgets>
+        </Widget>
+        <Widget xsi:type="widgets.brease.TabItem" id="TabItem4" left="0" width="1490" zIndex="3" style="empty">
+          <Widgets />
+        </Widget>
+      </Widgets>
+    </Widget>
+    <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle6" top="15" left="0" width="20" height="40" zIndex="1" borderWidth="0px" />
+    <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle7" top="15" left="349" width="948" height="40" zIndex="2" borderStyle="none" borderWidth="0px" />
+  </Widgets>
+</Content>

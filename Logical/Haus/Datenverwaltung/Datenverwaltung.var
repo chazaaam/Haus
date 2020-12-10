@@ -1,0 +1,15 @@
+VAR CONSTANT
+	MAX_DV : USINT := 28;
+END_VAR
+VAR
+	MpRecipeRegPar_DV : ARRAY[0..MAX_DV] OF MpRecipeRegPar := [29(0)];
+	MpRecipeCsv_DV : MpRecipeCsv := (0);
+	PVNames : ARRAY[0..MAX_DV] OF STRING[255] := [7(''),'Audi:Visu.StackerInfo.BoxID','gStacker[0].Data.HomePosition','gStacker[0].Data.WendePosition[0]','gStacker[0].Data.WendePosition[1]','DPU:DPUCargoPos','BMW:LKW','BMW:LagerVoll','BMW:LagerLeer','gBoxTypes','gStacker[2].Data.HomePosition','gStacker[2].Data.WendePosition[0]','gStacker[2].Data.WendePosition[1]','Visu:StaplerVisu[2].BoxType','Lausser:Lager','gStacker[3].Data.HomePosition','gStacker[3].Data.WendePosition[0]','gStacker[3].Data.WendePosition[1]','Lausser:Shuttleplatz','Lausser:Rollen','ShuttleHal:ShuttleVisu.Schaelstation.Data','Audi:Lager','Audi:LKW'];
+	DTGetTime_DV : DTGetTime := (0);
+	DirCreate_DV : DirCreate := (0);
+	i : USINT := 0;
+	Visu : DatenverwaltungVisu_typ := (0);
+	State : STATE_DV_enum := STATE_DV_WAIT;
+	FileInfo_0 : FileInfo := (0);
+	pFileInfo : REFERENCE TO fiFILE_INFO;
+END_VAR

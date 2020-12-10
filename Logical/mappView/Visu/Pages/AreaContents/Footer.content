@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="FooterContent1" height="60" width="1366" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.GroupBox" id="GroupBoxLeft" top="0" left="0" width="568" height="60" zIndex="1" childPositioning="relative" backColor="rgba(61, 62, 64, 1)" style="transparent">
+      <Widgets>
+        <Widget xsi:type="widgets.brease.NavigationButton" id="NavigationButtonAlarms" top="0" left="0" width="84" height="60" zIndex="0" image="Media/Visu/VisuFooter/enabled/224_Warning_ena.svg" pageId="page_Alarm1" imageHeight="41" imageColor="rgba(255, 255, 255, 1)" mouseDownImageColor="rgba(0, 204, 192, 1)" checkedImageColor="rgba(0, 204, 192, 1)" style="transparent" />
+        <Widget xsi:type="widgets.brease.NavigationButton" id="NavigationButton2" top="0" left="0" width="84" height="60" zIndex="1" image="Media/Visu/VisuFooter/enabled/226_Attention_ena.svg" pageId="pageId1" imageHeight="41" imageColor="rgba(255, 255, 255, 1)" mouseDownImageColor="rgba(0, 204, 192, 1)" checkedImageColor="rgba(0, 204, 192, 1)" style="transparent" visible="false" />
+        <Widget xsi:type="widgets.brease.NavigationButton" id="NavigationButton3" top="0" left="0" width="84" height="60" zIndex="2" image="Media/Visu/VisuFooter/enabled/180_Maintenance_ena.svg" pageId="pageId1" imageHeight="41" imageColor="rgba(255, 255, 255, 1)" mouseDownImageColor="rgba(0, 204, 192, 1)" margin="0px 0px 0px 0px" checkedImageColor="rgba(0, 204, 192, 1)" style="transparent" visible="false" />
+      </Widgets>
+    </Widget>
+    <Widget xsi:type="widgets.brease.GroupBox" id="GroupBoxRight" top="0" left="566" width="800" height="60" zIndex="0" childPositioning="relative" float="right" backColor="rgba(61, 62, 64, 1)" style="transparent">
+      <Widgets>
+        <Widget xsi:type="widgets.brease.GroupBox" id="GroupBoxHomeDashboard" top="0" left="0" width="84" height="60" zIndex="4" childPositioning="relative" margin="0px" style="transparent">
+          <Widgets>
+            <Widget xsi:type="widgets.brease.NavigationButton" id="NavigationButtonHome" top="0" left="0" width="84" height="60" zIndex="0" image="Media/Visu/VisuFooter/enabled/172_Home_ena.svg" mouseDownImage="Media/Visu/VisuFooter/enabled/172_Home_ena.svg" pageId="page_Homescreen" imageHeight="41" imageColor="rgba(255, 255, 255, 1)" mouseDownImageColor="rgba(255, 255, 255, 1)" checkedImageColor="rgba(255, 255, 255, 1)" style="transparent" />
+          </Widgets>
+        </Widget>
+        <Widget xsi:type="widgets.brease.ImageList" id="ImageListLogin" top="0" left="0" width="41" height="41" zIndex="5" imageAlign="right center" imageList="['']" selectedIndex="1" margin="10px 21px 0px 21px" />
+        <Widget xsi:type="widgets.brease.NavigationButton" id="NavigationButton6" top="0" left="0" width="84" height="60" zIndex="0" image="Media/Visu/VisuFooter/pumpeinverted.png" pageId="page_Solarpumpe" imageHeight="41" imageColor="rgba(255, 255, 255, 1)" mouseDownImageColor="rgba(0, 204, 192, 1)" checkedImageColor="rgba(0, 204, 192, 1)" style="transparent" />
+        <Widget xsi:type="widgets.brease.NavigationButton" id="NavigationButton5" top="0" left="0" width="84" height="60" zIndex="1" image="Media/Visu/VisuFooter/garageinverted.png" pageId="page_Garage" imageHeight="41" imageColor="rgba(255, 255, 255, 1)" mouseDownImageColor="rgba(0, 204, 192, 1)" checkedImageColor="rgba(0, 204, 192, 1)" style="transparent" />
+        <Widget xsi:type="widgets.brease.NavigationButton" id="NavigationButtonRecipe" top="0" left="0" width="84" height="60" zIndex="2" image="Media/Visu/VisuFooter/enabled/489_Module_ena.svg" pageId="page_AdminPage" imageHeight="41" imageColor="rgba(255, 255, 255, 1)" mouseDownImageColor="rgba(0, 204, 192, 1)" checkedImageColor="rgba(0, 204, 192, 1)" style="transparent" visible="false" />
+        <Widget xsi:type="widgets.brease.NavigationButton" id="NavigationButton7" top="0" left="0" width="84" height="60" zIndex="3" image="Media/Visu/VisuFooter/enabled/049_User_ena.svg" pageId="pageId1" imageHeight="41" imageColor="rgba(255, 255, 255, 1)" mouseDownImageColor="rgba(0, 204, 192, 1)" checkedImageColor="rgba(0, 204, 192, 1)" style="transparent" visible="false" />
+      </Widgets>
+    </Widget>
+    <Widget xsi:type="widgets.brease.FlyOut" id="FlyOut_Login" top="0" left="1050" width="315" height="152" zIndex="2" autoClose="true" buttonStyle="transparent" docking="bottom" showButton="false" buttonHeight="10" buttonWidth="294" imageHeight="40" buttonBorderStyle="none" buttonBorderColor="rgba(71, 71, 71, 1)" buttonBorderWidth="0px 0px 0px 0px" buttonCornerRadius="0px" buttonBackColor="rgba(112, 113, 115, 1)" buttonBackGroundGradient="none" borderStyle="none" borderColor="rgba(0, 0, 0, 1)" borderWidth="1px" backColor="rgba(255, 255, 255, 0)">
+      <Widgets>
+        <Widget xsi:type="widgets.brease.Login" id="Login1" top="0" left="0" width="313" height="153" zIndex="0" autFailMessage="Ungülige Eingabe" buttonLabel="Einloggen" buttonStyle="defaultSmall" labelStyle="default_white" messageStyle="default_white" passwordInputStyle="bhs" passwordLabel="Passwort" setUserFailMessage="Benutzereingabe fehlgeschlagen" setUserSuccessMessage="Gültige Eingabe" userChangedMessage="Benutzer gewechselt auf:" userInputStyle="bhs" userLabel="Benutzer" userName="KS" borderStyle="solid" backColor="rgba(61, 62, 64, 1)" backGroundGradient="none" borderColor="rgba(71, 71, 71, 1)" />
+      </Widgets>
+    </Widget>
+  </Widgets>
+</Content>

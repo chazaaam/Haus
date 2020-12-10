@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.8.3.111 SP?>
+<Cpu xmlns="http://br-automation.co.at/AS/Cpu">
+  <Objects>
+    <Object Type="File" Description="Software Konfiguration">Cpu.sw</Object>
+    <Object Type="File" Description="Permanente Variablen">Cpu.per</Object>
+    <Object Type="File" Description="I/O Mapping">IoMap.iom</Object>
+    <Object Type="File" Description="Variablenzuordnung">PvMap.vvm</Object>
+    <Object Type="Package">Connectivity</Object>
+    <Object Type="Package">TextSystem</Object>
+    <Object Type="Package">UnitSystem</Object>
+    <Object Type="Package">AccessAndSecurity</Object>
+    <Object Type="Package">mappControl</Object>
+    <Object Type="Package">mappMotion</Object>
+    <Object Type="Package">mappServices</Object>
+    <Object Type="Package">mappView</Object>
+    <Object Type="Package">mappCockpit</Object>
+    <Object Type="Package">Motion</Object>
+    <Object Type="Package">DTM</Object>
+    <Object Type="Package">ExternalHardware</Object>
+  </Objects>
+  <Configuration ModuleId="X20CP1586">
+    <AutomationRuntime Version="B4.82" />
+    <Build GccVersion="4.1.2" PreBuildStep="" />
+    <DefaultTargetMemory Tasks="UserROM" />
+    <Opc WindowsServer="False" />
+    <Safety SafetyRelease="0.0" />
+    <Transfer AddToUserPart="False" AdditionalUserDir="" AllowDowngrade="False" AllowInitialTransfer="False" AllowPartitioning="False" AutomaticInstallAllowPartitioning="True" EnableAutomaticInstallation="False" ExecuteInitExitProgram="True" ForceInitialTransfer="False" IdentificationTypeValue="" IgnoreVersion="False" KeepNonVolatileMemory="False" ModuleSystemForPip="" PreserveVariableValues="False" ProjectConsistent="True" RebootDuringTransfer="False" TargetIdentificationType="Always" TransferOnlyRelevantChanges="True" TryToBootInRunMode="True" UserFilesIgnoreDifference="False" />
+    <OnlineConfiguration Name="ZentralePanel" DeviceType="TCPIP" DeviceParameters="/IF=tcpip /LOPO=11159 /SA=122" ConnectionParameters="/COMT=2500 /RT=1000 /AM=* /SDT=5 /DAIP=172.16.3.10 /REPO=11159 /ANSL=1 /PT=11169" Description="" />
+  </Configuration>
+</Cpu>

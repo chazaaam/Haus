@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<OpcUaSource FileVersion="7" ArVersion="B4.82">
+  <Aliases>
+    <ACLAliases />
+    <EURangeViolationAliases />
+    <EURangesAliases>
+      <EURanges Id="3">
+        <EURange>
+          <Low ValueProvider="Const">0</Low>
+          <High ValueProvider="Const">1000</High>
+        </EURange>
+      </EURanges>
+    </EURangesAliases>
+    <EngineeringUnitAliases>
+      <EngineeringUnit Id="2" UnitId="4543793" NameSpaceUri="http://www.br-automation.com/units" Name="1/10 Grad Celsius" Symbol="1/10°C" />
+    </EngineeringUnitAliases>
+  </Aliases>
+  <DefaultView>
+    <Module Name="&lt;Default&gt;">
+      <Task Name="Solarpumpe">
+        <Variable Name="Visu">
+          <Variable Name="PumpeUpStyle" />
+          <Variable Name="PumpeDownStyle" />
+        </Variable>
+        <Variable Name="Mem" AutomaticEnable="True">
+          <Variable Name="DachSollTemp" EURangesId="3" EngineeringUnitId="2" />
+          <Variable Name="KesselSollTemp" EURangesId="3" EngineeringUnitId="2" />
+          <Variable Name="RuecklaufSollTemp" EURangesId="3" EngineeringUnitId="2" />
+          <Variable Name="Aktiv" />
+        </Variable>
+        <Variable Name="IO">
+          <Variable Name="Input">
+            <Variable Name="DachTemp" EURangesId="3" EngineeringUnitId="2" />
+            <Variable Name="RuecklaufTemp" EURangesId="3" EngineeringUnitId="2" />
+            <Variable Name="KesselTemp" EURangesId="3" EngineeringUnitId="2" />
+          </Variable>
+        </Variable>
+      </Task>
+    </Module>
+  </DefaultView>
+</OpcUaSource>

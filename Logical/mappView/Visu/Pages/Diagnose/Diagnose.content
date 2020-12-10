@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="DiagContent" height="682" width="1293" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.LanguageSelector" id="LanguageSelector1" top="0" left="-76" width="68" height="57" zIndex="0" />
+    <Widget xsi:type="widgets.brease.GroupBox" id="GroupBoxInfo1" top="7" left="938" width="400" height="822" zIndex="1" childPositioning="relative" fontSize="30px" textAlign="left" style="transparent">
+      <Widgets />
+    </Widget>
+    <Widget xsi:type="widgets.brease.TabControl" id="TabControl1" top="7" left="0" width="1293" height="670" zIndex="2" selectedIndex="1">
+      <Widgets>
+        <Widget xsi:type="widgets.brease.TabItem" id="TabItem1" left="0" width="20" height="39" zIndex="0" cornerRadius="0px" backGroundGradient="none" activeBorderColor="rgba(61, 62, 64, 1)" activeBackGroundGradient="none" enable="false" style="empty">
+          <Widgets>
+            <Widget xsi:type="widgets.brease.GroupBox" id="GroupBox1" top="37" left="1192" width="597" height="781" zIndex="0" childPositioning="relative" style="transparent">
+              <Widgets />
+            </Widget>
+            <Widget xsi:type="widgets.brease.GroupBox" id="GroupBox3" top="37" left="562" width="598" height="781" zIndex="1" childPositioning="relative" style="transparent">
+              <Widgets />
+            </Widget>
+          </Widgets>
+        </Widget>
+        <Widget xsi:type="widgets.brease.TabItem" id="TabItem2" left="0" width="195" height="39" zIndex="1" text="Diagnose" style="BHS">
+          <Widgets>
+            <Widget xsi:type="widgets.brease.GroupBox" id="GroupBoxMain" top="6" left="10" width="1076" height="621" zIndex="0" childPositioning="relative" cornerRadius="0px" style="transparent">
+              <Widgets>
+                <Widget xsi:type="widgets.brease.GroupBox" id="GroupBox8" top="0" left="0" width="134" height="616" zIndex="0" text="Stapler Auswahl" cornerRadius="0px" style="bhs">
+                  <Widgets>
+                    <Widget xsi:type="widgets.brease.RadioButtonGroup" id="RadioButtonGroup1" top="6" left="7" width="118" height="458" zIndex="0" autoScroll="true" childPositioning="relative">
+                      <Widgets>
+                        <Widget xsi:type="widgets.brease.RadioButton" id="RadioButtonStacker0" top="0" left="0" width="105" zIndex="2" text="MR4_1" visible="false" />
+                        <Widget xsi:type="widgets.brease.RadioButton" id="RadioButtonStacker1" top="0" left="0" width="105" zIndex="3" text="MR7_1" visible="false" />
+                        <Widget xsi:type="widgets.brease.RadioButton" id="RadioButtonStacker2" top="0" left="0" width="105" zIndex="4" text="MR2_1" visible="false" />
+                        <Widget xsi:type="widgets.brease.RadioButton" id="RadioButtonStacker5" top="0" left="0" width="105" zIndex="5" text="MR10_1" visible="false" />
+                        <Widget xsi:type="widgets.brease.RadioButton" id="RadioButtonStacker3" top="0" left="0" width="105" zIndex="0" text="MR10_2" visible="false" />
+                        <Widget xsi:type="widgets.brease.RadioButton" id="RadioButtonStacker4" top="0" left="0" width="105" zIndex="1" text="MR10_3" visible="false" />
+                      </Widgets>
+                    </Widget>
+                  </Widgets>
+                </Widget>
+                <Widget xsi:type="widgets.brease.GroupBox" id="GroupBoxShuttle8" top="0" left="0" width="260" height="616" zIndex="1" childPositioning="relative" text="Stapler" cornerRadius="0px" backColor="rgba(240, 241, 241, 1)" headerBackColor="rgba(112, 113, 115, 1)" headerGradient="none" textColor="rgba(255, 255, 255, 1)" fontSize="13px">
+                  <Widgets>
+                    <Widget xsi:type="widgets.brease.CheckBox" id="CheckBoxStapler14" top="2" left="0" width="250" zIndex="0" checkedBoxImage="Media/Images/on.png" disabledCheckedBoxImage="Media/Images/on.png" disabledUncheckedBoxImage="Media/Images/off.png" imageAlign="right" text="Remote Verbindung" disabledBorderColor="rgba(51, 51, 51, 1)" disabledTextColor="rgba(0, 0, 0, 1)" textAlign="left" padding="5px 5px 5px 5px" margin="0px 5px 5px 5px" enable="false" />
+                    <Widget xsi:type="widgets.brease.GroupBox" id="GroupBox7" top="0" left="0" width="260" height="425" zIndex="1" childPositioning="relative" margin="0px 0px 0px 0px" style="transparent" visible="false">
+                      <Widgets>
+                        <Widget xsi:type="widgets.brease.Label" id="Label28" top="0" left="0" width="77" zIndex="1" text="Batterie:" margin="5px 5px 5px 5px" />
+                        <Widget xsi:type="widgets.brease.ProgressBar" id="ProgressBar10" top="0" left="0" width="160" zIndex="0" margin="5px 5px 5px 5px" barColor="rgba(0, 204, 192, 1)" borderStyle="groove" borderWidth="1px" />
+                        <Widget xsi:type="widgets.brease.CheckBox" id="CheckBoxStapler116" top="0" left="0" width="250" zIndex="2" checkedBoxImage="Media/Images/on.png" disabledCheckedBoxImage="Media/Images/on.png" disabledUncheckedBoxImage="Media/Images/off.png" imageAlign="right" text="Safety Stop Stapler" value="true" disabledBorderColor="rgba(51, 51, 51, 1)" disabledTextColor="rgba(0, 0, 0, 1)" textAlign="left" padding="5px 5px 5px 5px" margin="0px 5px 5px 5px" enable="false" />
+                        <Widget xsi:type="widgets.brease.CheckBox" id="CheckBoxStapler117" top="0" left="0" width="250" zIndex="7" checkedBoxImage="Media/Images/on.png" disabledCheckedBoxImage="Media/Images/on.png" disabledUncheckedBoxImage="Media/Images/off.png" imageAlign="right" text="Safety Stop Zentrale" value="true" disabledBorderColor="rgba(51, 51, 51, 1)" disabledTextColor="rgba(0, 0, 0, 1)" textAlign="left" padding="5px 5px 5px 5px" margin="0px 0px 5px 5px" enable="false" />
+                        <Widget xsi:type="widgets.brease.CheckBox" id="CheckBoxStapler119" top="0" left="0" width="250" zIndex="3" checkedBoxImage="Media/Images/on.png" disabledCheckedBoxImage="Media/Images/on.png" disabledUncheckedBoxImage="Media/Images/off.png" imageAlign="right" text="Safety Scanner" value="true" disabledBorderColor="rgba(51, 51, 51, 1)" disabledTextColor="rgba(0, 0, 0, 1)" textAlign="left" padding="5px 5px 5px 5px" margin="0px 5px 5px 5px" enable="false" />
+                        <Widget xsi:type="widgets.brease.CheckBox" id="CheckBoxStapler120" top="0" left="0" width="250" zIndex="4" checkedBoxImage="Media/Images/on.png" disabledCheckedBoxImage="Media/Images/on.png" disabledUncheckedBoxImage="Media/Images/off.png" imageAlign="right" text="Loaded" value="true" disabledBorderColor="rgba(51, 51, 51, 1)" disabledTextColor="rgba(0, 0, 0, 1)" textAlign="left" padding="5px 5px 5px 5px" margin="0px 5px 5px 5px" enable="false" />
+                        <Widget xsi:type="widgets.brease.Label" id="Label31" top="0" left="0" width="138" zIndex="5" text="Blue Botics Grade:" margin="0px 5px 5px 5px" />
+                        <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutput27" top="0" left="0" zIndex="6" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':1,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':1,'minimumIntegerDigits':1}}" unit="{'metric':'P1','imperial':'P1','imperial-us':'P1'}" unitAlign="right" value="100" padding="0px 10px 0px 0px" margin="0px 5px 5px 5px" />
+                      </Widgets>
+                    </Widget>
+                  </Widgets>
+                </Widget>
+                <Widget xsi:type="widgets.brease.GroupBox" id="GroupBoxShuttle29" top="0" left="0" width="516" height="616" zIndex="2" text="Scanner/NotAus" cornerRadius="0px" backColor="rgba(240, 241, 241, 1)" headerBackColor="rgba(112, 113, 115, 1)" headerGradient="none" textColor="rgba(255, 255, 255, 1)" fontSize="13px" visible="false">
+                  <Widgets>
+                    <Widget xsi:type="widgets.brease.GroupBox" id="GroupBoxShuttle30" top="192" left="340" width="165" height="180" zIndex="3" childPositioning="relative" cornerRadius="8px 8px 8px 8px" backColor="rgba(240, 241, 241, 1)" headerBackColor="rgba(112, 113, 115, 1)" headerGradient="none" textColor="rgba(255, 255, 255, 1)" fontSize="13px">
+                      <Widgets>
+                        <Widget xsi:type="widgets.brease.CheckBox" id="CheckBoxStapler125" top="0" left="0" zIndex="0" checkedBoxImage="Media/Images/on.png" disabledCheckedBoxImage="Media/Images/on.png" disabledUncheckedBoxImage="Media/Images/off.png" imageAlign="right" text="Scanner" disabledBorderColor="rgba(51, 51, 51, 1)" disabledTextColor="rgba(0, 0, 0, 1)" textAlign="left" padding="5px 5px 5px 5px" margin="0px 5px 5px 5px" enable="false" />
+                        <Widget xsi:type="widgets.brease.CheckBox" id="CheckBoxStapler126" top="0" left="0" zIndex="1" checkedBoxImage="Media/Images/on.png" disabledCheckedBoxImage="Media/Images/on.png" disabledUncheckedBoxImage="Media/Images/off.png" imageAlign="right" text="Schutzfeld" disabledBorderColor="rgba(51, 51, 51, 1)" disabledTextColor="rgba(0, 0, 0, 1)" textAlign="left" padding="5px 5px 5px 5px" margin="0px 5px 5px 5px" enable="false" />
+                        <Widget xsi:type="widgets.brease.CheckBox" id="CheckBoxStapler127" top="0" left="0" zIndex="2" disabledCheckedBoxImage="Media/Images/on.png" disabledUncheckedBoxImage="Media/Images/off.png" imageAlign="right" text="Warnfeld" disabledBorderColor="rgba(51, 51, 51, 1)" disabledTextColor="rgba(0, 0, 0, 1)" textAlign="left" padding="5px 5px 5px 5px" margin="0px 5px 5px 5px" enable="false" />
+                        <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle13" top="0" left="0" width="150" height="1" zIndex="4" margin="0px 0px 0px 5px" />
+                        <Widget xsi:type="widgets.brease.CheckBox" id="CheckBoxStapler128" top="0" left="0" zIndex="3" disabledCheckedBoxImage="Media/Images/on.png" disabledUncheckedBoxImage="Media/Images/off.png" imageAlign="right" text="NotAus" disabledBorderColor="rgba(51, 51, 51, 1)" disabledTextColor="rgba(0, 0, 0, 1)" textAlign="left" padding="5px 5px 5px 5px" margin="0px 5px 5px 5px" enable="false" />
+                      </Widgets>
+                    </Widget>
+                    <Widget xsi:type="widgets.brease.GroupBox" id="GroupBoxShuttle31" top="52" left="169" width="165" height="145" zIndex="2" childPositioning="relative" cornerRadius="8px 8px 8px 8px" backColor="rgba(240, 241, 241, 1)" headerBackColor="rgba(112, 113, 115, 1)" headerGradient="none" textColor="rgba(255, 255, 255, 1)" fontSize="13px">
+                      <Widgets>
+                        <Widget xsi:type="widgets.brease.CheckBox" id="CheckBoxStapler129" top="0" left="0" zIndex="0" checkedBoxImage="Media/Images/on.png" disabledCheckedBoxImage="Media/Images/on.png" disabledUncheckedBoxImage="Media/Images/off.png" imageAlign="right" text="Scanner" disabledBorderColor="rgba(51, 51, 51, 1)" disabledTextColor="rgba(0, 0, 0, 1)" textAlign="left" padding="5px 5px 5px 5px" margin="0px 5px 5px 5px" enable="false" />
+                        <Widget xsi:type="widgets.brease.CheckBox" id="CheckBoxStapler130" top="0" left="0" zIndex="1" checkedBoxImage="Media/Images/on.png" disabledCheckedBoxImage="Media/Images/on.png" disabledUncheckedBoxImage="Media/Images/off.png" imageAlign="right" text="Schutzfeld" disabledBorderColor="rgba(51, 51, 51, 1)" disabledTextColor="rgba(0, 0, 0, 1)" textAlign="left" padding="5px 5px 5px 5px" margin="0px 5px 5px 5px" enable="false" />
+                        <Widget xsi:type="widgets.brease.CheckBox" id="CheckBoxStapler131" top="0" left="0" zIndex="2" disabledCheckedBoxImage="Media/Images/on.png" disabledUncheckedBoxImage="Media/Images/off.png" imageAlign="right" text="Warnfeld" disabledBorderColor="rgba(51, 51, 51, 1)" disabledTextColor="rgba(0, 0, 0, 1)" textAlign="left" padding="5px 5px 5px 5px" margin="0px 5px 5px 5px" enable="false" />
+                        <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle14" top="0" left="0" width="150" height="1" zIndex="4" margin="0px 0px 0px 5px" />
+                        <Widget xsi:type="widgets.brease.CheckBox" id="CheckBoxStapler132" top="0" left="0" zIndex="3" disabledCheckedBoxImage="Media/Images/on.png" disabledUncheckedBoxImage="Media/Images/off.png" imageAlign="right" text="NotAus" disabledBorderColor="rgba(51, 51, 51, 1)" disabledTextColor="rgba(0, 0, 0, 1)" textAlign="left" padding="5px 5px 5px 5px" margin="0px 5px 5px 5px" enable="false" />
+                      </Widgets>
+                    </Widget>
+                    <Widget xsi:type="widgets.brease.GroupBox" id="GroupBoxShuttle32" top="365" left="170" width="165" height="145" zIndex="1" childPositioning="relative" cornerRadius="8px 8px 8px 8px" backColor="rgba(240, 241, 241, 1)" headerBackColor="rgba(112, 113, 115, 1)" headerGradient="none" textColor="rgba(255, 255, 255, 1)" fontSize="13px">
+                      <Widgets>
+                        <Widget xsi:type="widgets.brease.CheckBox" id="CheckBoxStapler133" top="0" left="1" zIndex="0" checkedBoxImage="Media/Images/on.png" disabledCheckedBoxImage="Media/Images/on.png" disabledUncheckedBoxImage="Media/Images/off.png" imageAlign="right" text="Scanner" disabledBorderColor="rgba(51, 51, 51, 1)" disabledTextColor="rgba(0, 0, 0, 1)" textAlign="left" padding="5px 5px 5px 5px" margin="0px 5px 5px 5px" enable="false" />
+                        <Widget xsi:type="widgets.brease.CheckBox" id="CheckBoxStapler134" top="0" left="0" zIndex="1" checkedBoxImage="Media/Images/on.png" disabledCheckedBoxImage="Media/Images/on.png" disabledUncheckedBoxImage="Media/Images/off.png" imageAlign="right" text="Schutzfeld" disabledBorderColor="rgba(51, 51, 51, 1)" disabledTextColor="rgba(0, 0, 0, 1)" textAlign="left" padding="5px 5px 5px 5px" margin="0px 5px 5px 5px" enable="false" />
+                        <Widget xsi:type="widgets.brease.CheckBox" id="CheckBoxStapler135" top="0" left="0" zIndex="2" disabledCheckedBoxImage="Media/Images/on.png" disabledUncheckedBoxImage="Media/Images/off.png" imageAlign="right" text="Warnfeld" disabledBorderColor="rgba(51, 51, 51, 1)" disabledTextColor="rgba(0, 0, 0, 1)" textAlign="left" padding="5px 5px 5px 5px" margin="0px 5px 5px 5px" enable="false" />
+                        <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle15" top="0" left="0" width="150" height="1" zIndex="4" margin="0px 0px 0px 5px" />
+                        <Widget xsi:type="widgets.brease.CheckBox" id="CheckBoxStapler136" top="0" left="0" zIndex="3" disabledCheckedBoxImage="Media/Images/on.png" disabledUncheckedBoxImage="Media/Images/off.png" imageAlign="right" text="NotAus" disabledBorderColor="rgba(51, 51, 51, 1)" disabledTextColor="rgba(0, 0, 0, 1)" textAlign="left" padding="5px 5px 5px 5px" margin="0px 5px 5px 5px" enable="false" />
+                      </Widgets>
+                    </Widget>
+                    <Widget xsi:type="widgets.brease.GroupBox" id="GroupBoxShuttle33" top="192" left="-1" width="165" height="180" zIndex="0" childPositioning="relative" cornerRadius="8px 8px 8px 8px" backColor="rgba(240, 241, 241, 1)" headerBackColor="rgba(112, 113, 115, 1)" headerGradient="none" textColor="rgba(255, 255, 255, 1)" fontSize="13px">
+                      <Widgets>
+                        <Widget xsi:type="widgets.brease.CheckBox" id="CheckBoxStapler137" top="0" left="0" zIndex="0" checkedBoxImage="Media/Images/on.png" disabledCheckedBoxImage="Media/Images/on.png" disabledUncheckedBoxImage="Media/Images/off.png" imageAlign="right" text="Scanner" disabledBorderColor="rgba(51, 51, 51, 1)" disabledTextColor="rgba(0, 0, 0, 1)" textAlign="left" padding="5px 5px 5px 5px" margin="0px 5px 5px 5px" enable="false" />
+                        <Widget xsi:type="widgets.brease.CheckBox" id="CheckBoxStapler138" top="0" left="0" zIndex="1" checkedBoxImage="Media/Images/on.png" disabledCheckedBoxImage="Media/Images/on.png" disabledUncheckedBoxImage="Media/Images/off.png" imageAlign="right" text="Schutzfeld" disabledBorderColor="rgba(51, 51, 51, 1)" disabledTextColor="rgba(0, 0, 0, 1)" textAlign="left" padding="5px 5px 5px 5px" margin="0px 5px 5px 5px" enable="false" />
+                        <Widget xsi:type="widgets.brease.CheckBox" id="CheckBoxStapler139" top="0" left="0" zIndex="2" disabledCheckedBoxImage="Media/Images/on.png" disabledUncheckedBoxImage="Media/Images/off.png" imageAlign="right" text="Warnfeld" disabledBorderColor="rgba(51, 51, 51, 1)" disabledTextColor="rgba(0, 0, 0, 1)" textAlign="left" padding="5px 5px 5px 5px" margin="0px 5px 5px 5px" enable="false" />
+                        <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle16" top="0" left="0" width="150" height="1" zIndex="3" margin="0px 0px 0px 5px" />
+                        <Widget xsi:type="widgets.brease.CheckBox" id="CheckBoxStapler140" top="0" left="0" zIndex="4" checkedBoxImage="Media/Images/on.png" disabledCheckedBoxImage="Media/Images/on.png" disabledUncheckedBoxImage="Media/Images/off.png" imageAlign="right" text="NotAus Clamp" disabledBorderColor="rgba(51, 51, 51, 1)" disabledTextColor="rgba(0, 0, 0, 1)" textAlign="left" padding="5px 5px 5px 5px" margin="0px 5px 5px 5px" enable="false" />
+                        <Widget xsi:type="widgets.brease.CheckBox" id="CheckBoxStapler141" top="0" left="0" zIndex="5" checkedBoxImage="Media/Images/on.png" disabledCheckedBoxImage="Media/Images/on.png" disabledUncheckedBoxImage="Media/Images/off.png" imageAlign="right" text="NotAus Clamp" disabledBorderColor="rgba(51, 51, 51, 1)" disabledTextColor="rgba(0, 0, 0, 1)" textAlign="left" padding="5px 5px 5px 5px" margin="0px 5px 5px 5px" enable="false" />
+                      </Widgets>
+                    </Widget>
+                    <Widget xsi:type="widgets.brease.ImageList" id="ImageList1" top="240" left="165" width="177" height="78" zIndex="4" imageList="['', 'Media/Images/MR10%20Oben.png', 'Media/Images/MR4%20Oben.png']" selectedIndex="1" />
+                  </Widgets>
+                </Widget>
+              </Widgets>
+            </Widget>
+          </Widgets>
+        </Widget>
+        <Widget xsi:type="widgets.brease.TabItem" id="TabItem3" left="0" width="195" height="39" zIndex="2" text="Karte" style="BHS">
+          <Widgets>
+            <Widget xsi:type="widgets.brease.Image" id="Image6" top="5" left="199" width="878" height="619" zIndex="0" image="Media/Images/Paper/LausserHalle_test.PNG" />
+            <Widget xsi:type="widgets.brease.Paper" id="PaperStwShuttle1" top="5" left="199" width="880" height="619" zIndex="1" maxZoomLevel="100" minZoomLevel="100" transitionTime="20" borderStyle="none" enable="false" />
+          </Widgets>
+        </Widget>
+        <Widget xsi:type="widgets.brease.TabItem" id="TabItem4" left="0" width="1490" zIndex="3" enable="false" style="empty">
+          <Widgets />
+        </Widget>
+      </Widgets>
+    </Widget>
+  </Widgets>
+</Content>

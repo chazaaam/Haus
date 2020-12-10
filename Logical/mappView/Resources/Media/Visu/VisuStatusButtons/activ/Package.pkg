@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.8.3.111 SP?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="File" Description="004_Arrow_rit_act.svg">4.svg</Object>
+    <Object Type="File" Description="008_Arrow_Take_act.svg">8.svg</Object>
+    <Object Type="File" Description="009_Arrow_Drop_act.svg">9.svg</Object>
+    <Object Type="File" Description="010_AutomaticMode_act.svg">10.svg</Object>
+    <Object Type="File" Description="013_AutomaticTurn_lef_act.svg">13.svg</Object>
+    <Object Type="File" Description="014_AutomaticTurn_rit_act.svg">14.svg</Object>
+    <Object Type="File" Description="024_ManualMode_act.svg">24.svg</Object>
+    <Object Type="File" Description="031_Pusher_act.svg">31.svg</Object>
+    <Object Type="File" Description="032_Pusher_bot_act.svg">32.svg</Object>
+    <Object Type="File" Description="035_ReelStand_rit_act.svg">35.svg</Object>
+    <Object Type="File" Description="044_Switch_act.svg">44.svg</Object>
+    <Object Type="File" Description="045_Switch_On_act.svg">45.svg</Object>
+    <Object Type="File" Description="048_Trolley_act.svg">48.svg</Object>
+    <Object Type="File" Description="075_Flute_act.svg">75.svg</Object>
+    <Object Type="File" Description="106_Belt_act.svg">106.svg</Object>
+    <Object Type="File" Description="173_Info_act.svg">173.svg</Object>
+    <Object Type="File" Description="190_Circle_act.svg">190.svg</Object>
+    <Object Type="File" Description="201_Spray_act.svg">201.svg</Object>
+    <Object Type="File" Description="203_Center_act.svg">203.svg</Object>
+    <Object Type="File" Description="208_ZeroPoint_act.svg">208.svg</Object>
+    <Object Type="File" Description="374_Trolley_SideView_act.svg">374.svg</Object>
+    <Object Type="File" Description="435_AutomaticHelp_act.svg">435.svg</Object>
+    <Object Type="File" Description="447_Lifter_act.svg">447.svg</Object>
+    <Object Type="File" Description="449_Preparer_act.svg">449.svg</Object>
+    <Object Type="File" Description="495_Diameter_act.svg">495.svg</Object>
+    <Object Type="File" Description="496_Robot_act.svg">496.svg</Object>
+  </Objects>
+</Package>

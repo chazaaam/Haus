@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.8.3.111 SP?>
+<Package SubType="WidgetLibrary" PackageType="WidgetLibrary" xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="File" Description="Widget Library Description">Description.widgetlibrary</Object>
+    <Object Type="Package" Description="Resources">Resources</Object>
+    <Object Type="Package">AuftragStatus</Object>
+    <Object Type="Package">AuftragStatusSmall</Object>
+    <Object Type="Package">StatusButton</Object>
+    <Object Type="Package">StatusButton90deg</Object>
+    <Object Type="Package">StatusButton180deg</Object>
+    <Object Type="Package">StatusButton270deg</Object>
+  </Objects>
+</Package>

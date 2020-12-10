@@ -1,0 +1,7 @@
+VAR
+	IO : SolarpumpeIO_typ := (0);
+	Mem : SolarpumpeMem_typ := (0);
+	Visu : SolarpumpeVisu_typ := (0);
+	TON_PumpUp : TON := (0);
+	UDINTTimeOffset : UDINT := 0;
+END_VAR

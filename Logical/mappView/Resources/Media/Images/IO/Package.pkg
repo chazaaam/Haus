@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.4.5.61 SP?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="File">IOOut_b.png</Object>
+    <Object Type="File">IOIn_nb.png</Object>
+    <Object Type="File">IOIn_b.png</Object>
+    <Object Type="File">IOOut_nb.png</Object>
+  </Objects>
+</Package>

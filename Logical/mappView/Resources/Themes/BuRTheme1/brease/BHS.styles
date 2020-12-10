@@ -1,0 +1,328 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Styles id="styles_BHS" xmlns="http://www.br-automation.com/iat2015/styles/engineering/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+    <!-- SideBarButtons -->
+    <!-- Gray -->
+    <Style id="1" xsi:type="widgets.brease.NavigationButton" 
+        backColor="transparent" 
+        backGroundGradient="none" 
+        mouseDownBackColor="transparent" 
+        borderWidth="0px 8px 0px 8px"
+        checkedBackColor="transparent" 
+        mouseDownBorderWidth="0px 8px 0px 8px" 
+        fontSize="16px" 
+        bold="true" 
+        textColor="#474747" 
+        borderColor="rgba(0, 0, 0, 0) rgba(200, 201, 202, 1) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0)" 
+        mouseDownBorderColor="rgba(0, 0, 0, 0) rgba(200, 201, 202, 1) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0)" 
+        checkedBorderColor="rgba(0, 0, 0, 0) rgba(200, 201, 202, 1) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0)" 
+        />
+	
+    <!-- Red -->
+    <Style id="2" xsi:type="widgets.brease.NavigationButton" 
+        backColor="transparent" 
+        backGroundGradient="none" 
+        borderWidth="0px 8px 0px 8px"
+        mouseDownBackColor="transparent" 
+        checkedBackColor="transparent" 
+        mouseDownBorderWidth="0px 8px 0px 8px" 
+        fontSize="16px" 
+        bold="true" 
+        textColor="#474747" 
+        borderColor="rgba(0, 0, 0, 0) rgba(226, 0, 26, 1) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0)" 
+        mouseDownBorderColor="rgba(0, 0, 0, 0) rgba(226, 0, 26, 1) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0)" 
+        checkedBorderColor="rgba(0, 0, 0, 0) rgba(226, 0, 26, 1) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0)" 
+        />
+    <!-- Yellow -->
+    <Style id="4" xsi:type="widgets.brease.NavigationButton" 
+        backColor="transparent" 
+        backGroundGradient="none" 
+        borderWidth="0px 8px 0px 8px"
+        mouseDownBackColor="transparent" 
+        checkedBackColor="transparent" 
+        mouseDownBorderWidth="0px 8px 0px 8px" 
+        fontSize="16px" 
+        bold="true" 
+        textColor="#474747" 
+        borderColor="rgba(0, 0, 0, 0) rgba(255, 221, 0, 1) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0)" 
+        mouseDownBorderColor="rgba(0, 0, 0, 0) rgba(255, 221, 0, 1) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0)" 
+        checkedBorderColor="rgba(0, 0, 0, 0) rgba(255, 221, 0, 1) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0)" 
+        />
+    <!-- Blue -->
+    <Style id="5" xsi:type="widgets.brease.NavigationButton" 
+        backColor="transparent" 
+        backGroundGradient="none" 
+        borderWidth="0px 8px 0px 8px"
+        mouseDownBackColor="transparent" 
+        checkedBackColor="transparent" 
+        mouseDownBorderWidth="0px 8px 0px 8px" 
+        fontSize="16px" 
+        bold="true" 
+        textColor="#474747" 
+        borderColor="rgba(0, 0, 0, 0) rgba(0, 140, 205, 1) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0)" 
+        mouseDownBorderColor="rgba(0, 0, 0, 0) rgba(0, 140, 205, 1) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0)" 
+        checkedBorderColor="rgba(0, 0, 0, 0) rgba(0, 140, 205, 1) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0)" 
+        />     
+    <!-- White -->      
+    <Style id="6" xsi:type="widgets.brease.NavigationButton" 
+        backColor="transparent" 
+        backGroundGradient="none" 
+        borderWidth="0px 8px 0px 8px"
+        mouseDownBackColor="transparent" 
+        checkedBackColor="transparent" 
+        mouseDownBorderWidth="0px 8px 0px 8px" 
+        fontSize="16px" 
+        bold="true" 
+        textColor="#474747" 
+        borderColor="rgba(0, 0, 0, 0) rgba(255, 255, 255, 1) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0)" 
+        mouseDownBorderColor="rgba(0, 0, 0, 0) rgba(255, 255, 255, 1) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0)" 
+        checkedBorderColor="rgba(0, 0, 0, 0) rgba(255, 255, 255, 1) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0)" 
+        />        
+        
+    <!-- ListBox -->
+    <Style id="BHSContainer" xsi:type="widgets.brease.ListBox" 
+		fontSize="16px" 
+		activeTextColor="#3D3E40"  
+		textColor="#3D3E40" 
+		borderWidth="0px" 
+		backColor="rgba(225, 226, 227, 1)"  
+		activeBackColor="rgba(225, 226, 227, 1)"  
+		backGroundGradient="none" 
+		activeBackGroundGradient="none" 
+		borderColor="#C6C6C6" 
+        listSeparatorColor="rgba(225, 226, 227, 1)" 
+		textAlign="left" />
+        
+    <!-- GroupBox -->
+    <Style id="BHSContainer" xsi:type="widgets.brease.GroupBox"  
+		fontSize="16px" 
+		textColor="#474747" 
+		backColor="rgba(225, 226, 227, 1)"   
+		borderWidth="0px"  />
+                
+    <Style id="PageSelected" xsi:type="widgets.brease.GroupBox" 
+		backColor="rgba(217, 247, 246, 1)"
+        borderColor="rgba(0, 204, 192, 1)"
+        borderWidth="1px 0px" 
+		fontSize="16px" />    
+        
+    <Style id="PageNotSelected" xsi:type="widgets.brease.GroupBox" 
+		borderWidth="0px" 
+		backColor="transparent" 
+		fontSize="16px" />
+        
+    <!--check box-->
+	<Style id="ImageTextOutput" xsi:type="widgets.brease.CheckBox" 
+		borderStyle="none" 
+		fontSize="16px" 
+		textColor="#3D3E40" 
+		backColor="transparent" 
+		mouseDownBackColor="transparent" 
+		disabledBackColor="transparent" 
+		disabledTextColor="#3D3E40" 
+		bold="false" 
+        checkedBoxImageColor="rgba(226, 0, 26, 1)"
+        disabledCheckedBoxImageColor="rgba(226, 0, 26, 1)"
+        disabledUncheckedBoxImageColor="rgba(151, 152, 155, 1)"
+        uncheckedBoxImageColor="rgba(151, 152, 155, 1)"/>	
+        
+        		
+	<!--tabcontrol / tabitem-->
+	
+	<Style id="BHS" xsi:type="widgets.brease.TabControl" 
+		borderStyle="solid" 
+		borderWidth="1px 0px 0px 0px" 
+		borderColor="rgba(0, 0, 0, 1)" />
+	
+	<Style id="BHS" xsi:type="widgets.brease.TabItem" 
+		textColor="#3D3E40" 
+		fontSize="24px" 
+		cornerRadius="0px" 
+		backGroundGradient="none" 
+		activeBackGroundGradient="none" 
+		borderWidth="1px 1px 1px 1px" 
+		activeBorderWidth="1px 1px 0px 1px" 
+		borderColor="rgba(200, 201, 202, 1) rgba(200, 201, 202, 1) rgba(61, 62, 64, 1) rgba(200, 201, 202, 1)" 
+		activeBorderColor="rgba(61, 62, 64, 1)" 
+		activeTextColor="#3D3E40"
+        backColor="rgba(200, 201, 202, 1)" />
+        
+    <Style id="empty" xsi:type="widgets.brease.TabItem" 
+		cornerRadius="0px" 
+		backGroundGradient="none" 
+		activeBackGroundGradient="none" 
+		borderWidth="0px 0px 1px 0px" 
+		activeBorderWidth="0px 0px 1px 0px" 
+		borderColor="rgba(61, 62, 64, 1)" 
+		activeBorderColor="rgba(61, 62, 64, 1)" 
+        backColor="rgba(219, 219, 219, 0)" />
+        
+     <!-- ToggleButton -->
+    <Style id="StatusAnzeige" xsi:type="widgets.brease.ToggleButton" 
+		backColor="transparent" 
+        disabledBackColor="transparent"
+        disabledCheckedBackColor="transparent"
+		borderWidth="0px" 
+		mouseDownBackColor="transparent" 
+		checkedBackColor="transparent" 
+		mouseDownBorderWidth="0px" 
+		fontSize="16px" 
+		bold="true" 
+		textColor="#474747" 
+		mouseDownTextColor="#474747" 
+        checkedImageColor="rgba(0, 204, 192, 1)"
+        disabledCheckedImageColor="rgba(151, 152, 155, 1)"
+        disabledImageColor="rgba(151, 152, 155, 1)"
+        imageColor="rgba(61, 62, 64, 1)"
+        mouseDownImageColor="rgba(0, 204, 192, 1)"/>
+        
+    <Style id="StatusAnzeigeGreen" xsi:type="widgets.brease.ToggleButton" 
+		backColor="transparent" 
+        disabledBackColor="transparent"
+        disabledCheckedBackColor="transparent"
+		borderWidth="0px" 
+		mouseDownBackColor="transparent" 
+		checkedBackColor="transparent" 
+		mouseDownBorderWidth="0px" 
+		fontSize="16px" 
+		bold="true" 
+		textColor="#474747" 
+		mouseDownTextColor="#474747" 
+        checkedImageColor="rgba(0, 204, 192, 1)"
+        disabledCheckedImageColor="rgba(0, 204, 192, 1)"
+        disabledImageColor="rgba(0, 204, 192, 1)"
+        imageColor="rgba(0, 204, 192, 1)"
+        mouseDownImageColor="rgba(0, 204, 192, 1)"/>
+        
+    <Style id="StatusAnzeigeRed" xsi:type="widgets.brease.ToggleButton" 
+		backColor="transparent" 
+        disabledBackColor="transparent"
+        disabledCheckedBackColor="transparent"
+		borderWidth="0px" 
+		mouseDownBackColor="transparent" 
+		checkedBackColor="transparent" 
+		mouseDownBorderWidth="0px" 
+		fontSize="16px" 
+		bold="true" 
+		textColor="#474747" 
+		mouseDownTextColor="#474747" 
+        checkedImageColor="rgba(226, 0, 26, 1)"
+        disabledCheckedImageColor="rgba(226, 0, 26, 1)"
+        disabledImageColor="rgba(226, 0, 26, 1)"
+        imageColor="rgba(226, 0, 26, 1)"
+        mouseDownImageColor="rgba(226, 0, 26, 1)"/>
+        
+    <Style id="StatusAnzeigeBlack" xsi:type="widgets.brease.ToggleButton" 
+		backColor="transparent" 
+        disabledBackColor="transparent"
+        disabledCheckedBackColor="transparent"
+		borderWidth="0px" 
+		mouseDownBackColor="transparent" 
+		checkedBackColor="transparent" 
+		mouseDownBorderWidth="0px" 
+		fontSize="16px" 
+		bold="true" 
+		textColor="#474747" 
+		mouseDownTextColor="#474747" 
+        checkedImageColor="rgba(61, 62, 64, 1)"
+        disabledCheckedImageColor="rgba(61, 62, 64, 1)"
+        disabledImageColor="rgba(61, 62, 64, 1)"
+        imageColor="rgba(61, 62, 64, 1)"
+        mouseDownImageColor="rgba(61, 62, 64, 1)"/>
+        
+    <Style id="StatusAnzeigeGray" xsi:type="widgets.brease.ToggleButton" 
+		backColor="transparent" 
+        disabledBackColor="transparent"
+        disabledCheckedBackColor="transparent"
+		borderWidth="0px" 
+		mouseDownBackColor="transparent" 
+		checkedBackColor="transparent" 
+		mouseDownBorderWidth="0px" 
+		fontSize="16px" 
+		bold="true" 
+		textColor="#474747" 
+		mouseDownTextColor="#474747" 
+        checkedImageColor="rgba(151, 152, 155, 1)"
+        disabledCheckedImageColor="rgba(151, 152, 155, 1)"
+        disabledImageColor="rgba(151, 152, 155, 1)"
+        imageColor="rgba(151, 152, 155, 1)"
+        mouseDownImageColor="rgba(151, 152, 155, 1)"/>
+        
+    <!-- MomentaryPushButton -->
+    <Style id="StatusAnzeige" xsi:type="widgets.brease.MomentaryPushButton" 
+		backColor="transparent" 
+        disabledBackColor="transparent"
+		borderWidth="0px" 
+		mouseDownBackColor="transparent" 
+		mouseDownBorderWidth="0px" 
+		fontSize="16px" 
+		bold="true" 
+		textColor="#474747" 
+		mouseDownTextColor="#474747" />
+  
+    <!--dropdown box-->	
+	<Style id="Anzeige" xsi:type="widgets.brease.DropDownBox" 
+		fontSize="16px" 
+		bold="false" 
+		textColor="#474747" 
+		backGroundGradient="linear-gradient(to bottom,#F7F7F7 0%,#C6C6C6 100%)"  
+		disabledBackGroundGradient="none" 
+        disabledBackColor="transparent"
+        disabledTextColor="#474747"
+		mouseDownTextColor="#FFFFFF" 
+		cornerRadius="5px" 
+		listBackColor="#C6C6C6"  
+		borderWidth="0px" 
+		mouseDownBorderWidth="0px 2px 0px 0px" 
+		borderColor="#A899A0 #FF8A00 #5F5F5F #A899A0" 
+		mouseDownBorderColor="#FFA947 #FD7B01 #FD7B01 #FFA947" 
+		activeTextColor="#FFFFFF" 
+		activeBackGroundGradient="linear-gradient(to bottom, #FFAA4D 0%,#FF8500 100%)" 
+		listBorderWidth="0px" 
+	textAlign="right" />
+	
+	<!--rectangle-->
+
+	<Style id="SicherheitsFeld" xsi:type="widgets.brease.Rectangle" 
+		borderWidth="1px" 
+		cornerRadius="0px" 
+		backColor="rgba(255, 0, 0, 1)" 
+		lineColor="rgba(71, 71, 71, 1)" 
+		borderStyle="dashed" 
+		opacity="1" />	
+	
+	<Style id="WarnFeld" xsi:type="widgets.brease.Rectangle" 
+		borderWidth="1px" 
+		cornerRadius="0px" 
+		backColor="rgba(255, 255, 0, 1)" 
+		lineColor="rgba(71, 71, 71, 1)" 
+		borderStyle="dashed" 
+		opacity="1" />
+		
+	<Style id="KeinFeld" xsi:type="widgets.brease.Rectangle" 
+		borderWidth="1px" 
+		cornerRadius="0px" 
+		backColor="rgba(0, 255, 0, 1)" 
+		lineColor="rgba(71, 71, 71, 1)" 
+		borderStyle="dashed" 
+		opacity="1" />
+        
+	
+	<!-- Image -->    
+	<Style id="StatusOk" xsi:type="widgets.brease.Image"
+		imageColor="rgba(0, 128, 0, 1)" />		
+		<Style id="StatusNOk" xsi:type="widgets.brease.Image"
+		imageColor="rgba(226, 0, 26, 1)" />
+        <!-- Black -->
+    <Style id="0" xsi:type="widgets.brease.Image"
+        imageColor="rgba(61, 62, 64, 1)" />
+        <!-- Gray -->
+    <Style id="1" xsi:type="widgets.brease.Image"
+        imageColor="rgba(151, 152, 155, 1)" />
+        <!-- Red -->
+    <Style id="2" xsi:type="widgets.brease.Image"
+        imageColor="rgba(226, 0, 26, 1)" />
+        <!-- Green -->
+    <Style id="3" xsi:type="widgets.brease.Image"
+        imageColor="rgba(0, 204, 192, 1)" />
+</Styles>
