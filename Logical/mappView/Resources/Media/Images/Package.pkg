@@ -23,5 +23,6 @@
     <Object Type="File">roof.png</Object>
     <Object Type="File">garageclosed.png</Object>
     <Object Type="File">garageopen.png</Object>
+    <Object Type="File">icon.png</Object>
   </Objects>
 </Package>

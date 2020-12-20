@@ -35,6 +35,7 @@
       <Parameter ID="ActivatePowerlink" Value="0" />
     </Connector>
     <Parameter ID="ConfigurationID" Value="Haus" />
+    <Parameter ID="Simulation" Value="1" />
     <Parameter ID="SimulationModeOpcUa" Value="off" />
     <Parameter ID="RemanentGlobalPvSize" Value="120652" />
     <Parameter ID="VolatileGlobalPvSize" Value="300000" />

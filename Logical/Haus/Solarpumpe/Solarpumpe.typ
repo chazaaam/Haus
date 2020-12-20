@@ -17,6 +17,14 @@ TYPE
 		PumpeUpStyle : STRING[99];
 		PumpeDownStyle : STRING[99];
 	END_STRUCT;
+	SolarpumpeInfo_typ : 	STRUCT 
+		LaufzeitDownAkt : DINT;
+		LaufzeitUpAkt : DINT;
+		LaufzeitDownGes : DINT;
+		LaufzeitUpGes : DINT;
+		LastStart : DATE_AND_TIME;
+		LastStop : DATE_AND_TIME;
+	END_STRUCT;
 	SolarpumpeMem_typ : 	STRUCT 
 		DachSollTemp : INT;
 		KesselSollTemp : INT;

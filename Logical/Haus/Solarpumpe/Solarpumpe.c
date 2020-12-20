@@ -29,15 +29,37 @@ void _CYCLIC ProgramCyclic(void)
 	TON_PumpUp.PT = UDINTTimeOffset * 1000;
 	TON(&TON_PumpUp);
 	
+	R_TRIG_Start.CLK = IO.Output.PumpeUp && IO.Output.PumpeDown;
+	R_TRIG(&R_TRIG_Start);
+	
+	R_TRIG_Stop.CLK = !(IO.Output.PumpeUp && IO.Output.PumpeDown);
+	R_TRIG(&R_TRIG_Stop);
+	
+	if(R_TRIG_Start.Q)
+	{
+		Info.LastStart = gCurrentDT;	
+	}
+	
+	if(R_TRIG_Stop.Q)
+	{
+	 	Info.LastStop = gCurrentDT;	
+		Info.LaufzeitDownAkt = 0;
+		Info.LaufzeitUpAkt = 0;
+	}
+	
 	if(Mem.Aktiv)
 	{
 		if(IO.Input.DachTemp >= Mem.DachSollTemp && IO.Input.KesselTemp <= Mem.KesselSollTemp)
 		{
 			IO.Output.PumpeDown = true;
+			Info.LaufzeitDownAkt += CURRENT_CYCLE_TIME;
+			Info.LaufzeitUpGes += CURRENT_CYCLE_TIME;
 			
 			if(TON_PumpUp.Q && IO.Input.RuecklaufTemp <= Mem.RuecklaufSollTemp)
 			{
 				IO.Output.PumpeUp = true;	
+				Info.LaufzeitUpAkt += CURRENT_CYCLE_TIME;
+				Info.LaufzeitDownGes += CURRENT_CYCLE_TIME;	
 			}
 		}
 		else

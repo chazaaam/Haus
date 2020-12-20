@@ -10,6 +10,7 @@
   </TaskClass>
   <TaskClass Name="Cyclic#5" />
   <TaskClass Name="Cyclic#6">
+    <Task Name="Main" Source="Haus.Main.prg" Memory="UserROM" Language="ANSIC" Debugging="true" />
     <Task Name="Datenverwa" Source="Haus.Datenverwaltung.prg" Memory="UserROM" Language="ANSIC" Debugging="true" />
   </TaskClass>
   <DataObjects>
@@ -24,9 +25,6 @@
     <BinaryObject Name="mvLoader" Source="" Memory="UserROM" Language="Binary" />
     <BinaryObject Name="TCData" Source="" Memory="SystemROM" Language="Binary" />
     <BinaryObject Name="arsvcreg" Source="" Memory="UserROM" Language="Binary" />
-    <BinaryObject Name="RollenDB" Source="" Memory="UserROM" Language="Binary" />
-    <BinaryObject Name="Alarme" Source="" Memory="UserROM" Language="Binary" />
-    <BinaryObject Name="Config" Source="" Memory="UserROM" Language="Binary" />
     <BinaryObject Name="User" Source="" Memory="UserROM" Language="Binary" />
     <BinaryObject Name="arconfig" Source="" Memory="SystemROM" Language="Binary" />
     <BinaryObject Name="Role" Source="" Memory="UserROM" Language="Binary" />
@@ -36,9 +34,12 @@
     <BinaryObject Name="ashwd" Source="" Memory="SystemROM" Language="Binary" />
     <BinaryObject Name="sysconf" Source="" Memory="SystemROM" Language="Binary" />
     <BinaryObject Name="Speicher" Source="" Memory="UserROM" Language="Binary" />
+    <BinaryObject Name="Units" Source="" Memory="UserROM" Language="Binary" />
+    <BinaryObject Name="RollenDB" Source="" Memory="UserROM" Language="Binary" />
+    <BinaryObject Name="Alarme" Source="" Memory="UserROM" Language="Binary" />
+    <BinaryObject Name="Config" Source="" Memory="UserROM" Language="Binary" />
     <BinaryObject Name="VehicleAla" Source="" Memory="UserROM" Language="Binary" />
     <BinaryObject Name="History" Source="" Memory="UserROM" Language="Binary" />
-    <BinaryObject Name="Units" Source="" Memory="UserROM" Language="Binary" />
     <BinaryObject Name="asnxdb2" Source="" Memory="SystemROM" Language="Binary" />
     <BinaryObject Name="OpcUaMap" Source="" Memory="UserROM" Language="Binary" />
     <BinaryObject Name="MR4" Source="" Memory="UserROM" Language="Binary" />
@@ -65,6 +66,7 @@
     <LibraryObject Name="MpCom" Source="Libraries.MpCom.lby" Memory="UserROM" Language="Binary" Debugging="true" />
     <LibraryObject Name="MpRecipe" Source="Libraries.MpRecipe.lby" Memory="UserROM" Language="Binary" Debugging="true" />
     <LibraryObject Name="ksStpHist" Source="Libraries.ksStpHist.lby" Memory="UserROM" Language="ANSIC" Debugging="true" />
+    <LibraryObject Name="DataObj" Source="Libraries.DataObj.lby" Memory="UserROM" Language="binary" Debugging="true" />
     <LibraryObject Name="aruser" Source="" Memory="UserROM" Language="Binary" Debugging="true" />
     <LibraryObject Name="arssl" Source="" Memory="UserROM" Language="Binary" Debugging="true" />
     <LibraryObject Name="AsTCP" Source="" Memory="UserROM" Language="Binary" Debugging="true" />
@@ -81,6 +83,5 @@
     <LibraryObject Name="MTProfile" Source="" Memory="UserROM" Language="Binary" Debugging="true" />
     <LibraryObject Name="powerlnk" Source="" Memory="UserROM" Language="Binary" Debugging="true" />
     <LibraryObject Name="ksAlarm" Source="" Memory="UserROM" Language="Binary" Debugging="true" />
-    <LibraryObject Name="DataObj" Source="Libraries.DataObj.lby" Memory="UserROM" Language="binary" Debugging="true" />
   </Libraries>
 </SwConfiguration>

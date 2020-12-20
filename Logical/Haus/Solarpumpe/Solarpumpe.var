@@ -4,4 +4,10 @@ VAR
 	Visu : SolarpumpeVisu_typ := (0);
 	TON_PumpUp : TON := (0);
 	UDINTTimeOffset : UDINT := 0;
+	Info : SolarpumpeInfo_typ := (0);
+	R_TRIG_Start : R_TRIG := (0);
+	R_TRIG_Stop : R_TRIG := (0);
+END_VAR
+VAR CONSTANT
+	CURRENT_CYCLE_TIME : USINT := 32;
 END_VAR

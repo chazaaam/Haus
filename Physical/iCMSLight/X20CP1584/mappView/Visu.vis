@@ -41,8 +41,8 @@
 	<Configurations>
 	    <Configuration key="activityCount" value="false" />
 	    <Configuration key="zoom" value="true" />
-	    <Configuration key="favicon" value="Media/Visu/VisuLogo/BHSLogo.png" />
-	    <Configuration key="bootLogo" value="Media/Visu/VisuLogo/BHS_Logo_BHS_Intralogistic_4c_Weissraum.jpg" />
+	    <Configuration key="favicon" value="Media/Images/icon.png" />
+	    <Configuration key="bootLogo" value="Media/Images/icon.png" />
 	    <Configuration key="bootColor" value="#FFFFFF" />
 	  	<Gestures>
 			<!--<SystemGesture1 touchPoints="2" />
