@@ -15,7 +15,7 @@
                 <Widget xsi:type="widgets.brease.AlarmListItem" id="AlarmListItem6" zIndex="2" columnType="name" text="Nr." />
               </Widgets>
             </Widget>
-            <Widget xsi:type="widgets.brease.Button" id="Button2" top="582" left="4" width="171" zIndex="1" text="Quittieren" imageHeight="30" textAlign="left" padding="0px 0px" />
+            <Widget xsi:type="widgets.brease.Button" id="Button2" top="582" left="4" width="171" zIndex="1" text="Quittieren" imageHeight="30" textAlign="center" padding="0px 0px" />
             <Widget xsi:type="widgets.brease.Button" id="ButtonFilter3" top="11" left="829" width="103" zIndex="2" text="Filter" cornerRadius="0px 0px 30px 30px" />
           </Widgets>
         </Widget>

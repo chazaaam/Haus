@@ -47,12 +47,19 @@
         <Variable Name="Visu" AutomaticEnable="True" />
       </Task>
       <Task Name="Garage">
-        <Variable Name="IO">
+        <Variable Name="IO" AutomaticEnable="True">
           <Variable Name="Input">
             <Variable Name="Opened" />
             <Variable Name="Closed" />
           </Variable>
         </Variable>
+        <Variable Name="Visu" AutomaticEnable="True" />
+        <Variable Name="Mem" AutomaticEnable="True">
+          <Variable Name="Nachlaufzeit" EngineeringUnitId="3" />
+        </Variable>
+      </Task>
+      <Task Name="ErrorHandl">
+        <Variable Name="Visu" AutomaticEnable="True" />
       </Task>
     </Module>
   </DefaultView>

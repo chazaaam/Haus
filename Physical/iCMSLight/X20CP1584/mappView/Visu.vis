@@ -17,7 +17,8 @@
 		<BindingsSet refId="binding_01_Session" />
 	</BindingsSets>
 	<EventBindingsSets> 
-    	<EventBindingsSet refId="FooterContent1_eventbinding" />
+		<EventBindingsSet refId="FooterContent1_eventbinding" />
+		<EventBindingsSet refId="AlarmContent1_eventbinding" />
 	</EventBindingsSets>
 	<Dialogs>
 		<!--<Dialog refId="" />-->

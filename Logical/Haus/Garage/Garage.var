@@ -1,3 +1,6 @@
 VAR
+	Mem : GarageMem_typ := (0);
 	IO : GarageIO_typ := (0);
+	Stat : GarageStat_typ := (0);
+	Visu : GarageVisu_typ := (0);
 END_VAR

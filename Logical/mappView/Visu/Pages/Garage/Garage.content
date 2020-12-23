@@ -26,11 +26,11 @@
                     <Widget xsi:type="widgets.brease.CheckBox" id="CheckBoxStapler14" top="2" left="0" width="250" zIndex="0" checkedBoxImage="Media/Images/on.png" disabledCheckedBoxImage="Media/Images/on.png" disabledUncheckedBoxImage="Media/Images/off.png" imageAlign="right" text="Automatisches Schliessen" uncheckedBoxImage="Media/Images/off.png" disabledBorderColor="rgba(51, 51, 51, 1)" disabledTextColor="rgba(0, 0, 0, 1)" textAlign="left" padding="5px 5px 5px 5px" margin="0px 5px 5px 5px" />
                     <Widget xsi:type="widgets.brease.GroupBox" id="GroupBox7" top="0" left="0" width="260" height="425" zIndex="1" childPositioning="relative" margin="0px 0px 0px 0px" style="transparent">
                       <Widgets>
-                        <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle1" top="0" left="0" width="240" height="2" zIndex="2" margin="10px 10px" />
-                        <Widget xsi:type="widgets.brease.Label" id="Label32" top="0" left="0" width="146" zIndex="0" breakWord="true" multiLine="true" text="Uhrzeit" margin="5px" />
-                        <Widget xsi:type="widgets.brease.DateTimeInput" id="DateTimeInput1" top="0" left="0" width="88" zIndex="1" format="hh:mm:ss" pickerPosition="center" textAlign="center" margin="5px" />
-                        <Widget xsi:type="widgets.brease.Label" id="Label33" top="0" left="0" width="146" zIndex="3" breakWord="true" multiLine="true" text="Schliesszeit" margin="5px" />
-                        <Widget xsi:type="widgets.brease.DateTimeInput" id="DateTimeInput2" top="0" left="0" width="88" zIndex="4" format="hh:mm:ss" pickerPosition="center" textAlign="center" margin="5px" />
+                        <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle1" top="0" left="0" width="240" height="2" zIndex="1" margin="10px 10px" />
+                        <Widget xsi:type="widgets.brease.Label" id="Label32" top="0" left="0" width="147" zIndex="0" breakWord="true" multiLine="true" text="Öfnen Nachlaufzeit" margin="5px" />
+                        <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput1" top="0" left="0" width="90" zIndex="4" format="{'metric':{'decimalPlaces':1,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':2,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':2,'minimumIntegerDigits':1}}" unit="{'metric':'MIN','imperial':'MIN','imperial-us':'MIN'}" unitAlign="right" margin="5px" />
+                        <Widget xsi:type="widgets.brease.Label" id="Label33" top="0" left="0" width="147" zIndex="2" breakWord="true" multiLine="true" text="Schliesszeit" margin="5px" />
+                        <Widget xsi:type="widgets.brease.DateTimeInput" id="DateTimeInput2" top="0" left="0" width="90" zIndex="3" format="hh:mm:ss" pickerPosition="center" textAlign="center" margin="5px" />
                       </Widgets>
                     </Widget>
                   </Widgets>

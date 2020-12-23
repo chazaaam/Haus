@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+  <Element ID="gAlarmXCore" Type="mpalarmxcore">
+    <Group ID="mapp.AlarmX.Core">
+      <Group ID="Mapping">
+        <Group ID="[0]" />
+      </Group>
+    </Group>
+    <Group ID="mapp.AlarmX.Core.Configuration">
+      <Group ID="[0]">
+        <Property ID="Name" Value="GarageUndefined" />
+        <Property ID="Message" Value="Das Garagentor ist in einem undefiniertem Zustand" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[1]">
+        <Property ID="Name" Value="PumpUpNotActive" />
+        <Property ID="Message" Value="Die &amp;#x2B06; Pumpe wurde nicht aktiviert da die Rücklauftemperatur zu hoch ist." />
+        <Property ID="Severity" Value="2" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+    </Group>
+    <Group ID="mapp.AlarmX.Core.Queries">
+      <Group ID="[0]">
+        <Property ID="Name" Value="ActiveErrors" />
+        <Property ID="Update" Value="::ErrorHandl:ActiveAlarms.Error.UpdateFlag" />
+        <Selector ID="Source">
+          <Group ID="SELECT">
+            <Group ID="[0]">
+              <Property ID="Column" Value="Severity" />
+              <Property ID="PV" Value="::ErrorHandl:ActiveAlarms.Error.ActiveAlarms[]" />
+            </Group>
+          </Group>
+          <Group ID="WHERE">
+            <Group ID="[0]">
+              <Property ID="Column" Value="Severity" />
+              <Selector ID="CompareTo">
+                <Property ID="Value" Value="1" />
+              </Selector>
+            </Group>
+          </Group>
+        </Selector>
+      </Group>
+      <Group ID="[1]">
+        <Property ID="Name" Value="ActiveWarnings" />
+        <Property ID="Update" Value="::ErrorHandl:ActiveAlarms.Warning.UpdateFlag" />
+        <Selector ID="Source">
+          <Group ID="SELECT">
+            <Group ID="[0]">
+              <Property ID="Column" Value="Severity" />
+              <Property ID="PV" Value="::ErrorHandl:ActiveAlarms.Warning.ActiveAlarms[]" />
+            </Group>
+          </Group>
+          <Group ID="WHERE">
+            <Group ID="[0]">
+              <Property ID="Column" Value="Severity" />
+              <Selector ID="CompareTo">
+                <Property ID="Value" Value="2" />
+              </Selector>
+            </Group>
+          </Group>
+        </Selector>
+      </Group>
+      <Group ID="[2]">
+        <Property ID="Name" Value="ActiveInfos" />
+        <Property ID="Update" Value="::ErrorHandl:ActiveAlarms.Info.UpdateFlag" />
+        <Selector ID="Source">
+          <Group ID="SELECT">
+            <Group ID="[0]">
+              <Property ID="Column" Value="Severity" />
+              <Property ID="PV" Value="::ErrorHandl:ActiveAlarms.Info.ActiveAlarms[]" />
+            </Group>
+          </Group>
+          <Group ID="WHERE">
+            <Group ID="[0]">
+              <Property ID="Column" Value="Severity" />
+              <Selector ID="CompareTo">
+                <Property ID="Value" Value="3" />
+              </Selector>
+            </Group>
+          </Group>
+        </Selector>
+      </Group>
+    </Group>
+    <Group ID="mapp.AlarmX.Core.Categories">
+      <Group ID="[0]">
+        <Property ID="Name" Value="Error" />
+        <Selector ID="SourceProperty">
+          <Property ID="Severity" Value="1" />
+        </Selector>
+      </Group>
+      <Group ID="[1]">
+        <Property ID="Name" Value="Warning" />
+        <Selector ID="SourceProperty">
+          <Property ID="Severity" Value="2" />
+        </Selector>
+      </Group>
+      <Group ID="[2]">
+        <Property ID="Name" Value="Info" />
+        <Selector ID="SourceProperty">
+          <Property ID="Severity" Value="3" />
+        </Selector>
+      </Group>
+    </Group>
+  </Element>
+</Configuration>

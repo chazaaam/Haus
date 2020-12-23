@@ -1,0 +1,12 @@
+VAR CONSTANT
+	ALARMLIST_CONFIG : STRING[1000] := '[{"styleNbr":1,"alarmState":5,"severity":[{"useState":true,"value":1,"conditionType":"=="},{"useState":false,"value":0,"conditionType":">"}]},{"styleNbr":2,"alarmState":5,"severity":[{"useState":true,"value":2,"conditionType":"=="},{"useState":false,"value":0,"conditionType":">"}]},{"styleNbr":3,"alarmState":5,"severity":[{"useState":true,"value":3,"conditionType":"=="},{"useState":false,"value":0,"conditionType":">"}]}]';
+END_VAR
+VAR
+	MpAlarmXCore_1 : MpAlarmXCore;
+	ResetMpError : BOOL;
+	Visu : ErrorHandlingVisu_typ := (0);
+	MpAlarmXQuery_1 : MpAlarmXQuery := (0);
+	MpAlarmXQuery_2 : MpAlarmXQuery := (0);
+	MpAlarmXQuery_0 : MpAlarmXQuery := (0);
+	ActiveAlarms : ActiveAlarms_type := (0);
+END_VAR

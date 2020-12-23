@@ -1,0 +1,5 @@
+[1220/114314:ERROR:renderer_main.cc(212)] Running without renderer sandbox
+[1220/114609:ERROR:renderer_main.cc(212)] Running without renderer sandbox
+[1220/120845:ERROR:renderer_main.cc(212)] Running without renderer sandbox
+[1221/235502:ERROR:ipc_channel_win.cc(412)] pipe error: 232
+[1221/235502:ERROR:ipc_channel_win.cc(412)] pipe error: 232

@@ -7,6 +7,7 @@
   <TaskClass Name="Cyclic#4">
     <Task Name="Solarpumpe" Source="Haus.Solarpumpe.prg" Memory="UserROM" Language="ANSIC" Debugging="true" />
     <Task Name="Garage" Source="Haus.Garage.prg" Memory="UserROM" Language="ANSIC" Debugging="true" />
+    <Task Name="ErrorHandl" Source="Haus.ErrorHandling.prg" Memory="UserROM" Language="ANSIC" Debugging="true" />
   </TaskClass>
   <TaskClass Name="Cyclic#5" />
   <TaskClass Name="Cyclic#6">
@@ -73,7 +74,6 @@
     <LibraryObject Name="ksBuffer" Source="" Memory="UserROM" Language="Binary" Debugging="true" />
     <LibraryObject Name="AsOpcUac" Source="" Memory="UserROM" Language="Binary" Debugging="true" />
     <LibraryObject Name="AsHttp" Source="" Memory="UserROM" Language="Binary" Debugging="true" />
-    <LibraryObject Name="MpAlarmX" Source="" Memory="UserROM" Language="Binary" Debugging="true" />
     <LibraryObject Name="MTBasics" Source="" Memory="UserROM" Language="Binary" Debugging="true" />
     <LibraryObject Name="AsHydCon" Source="" Memory="UserROM" Language="Binary" Debugging="true" />
     <LibraryObject Name="dvframe" Source="" Memory="UserROM" Language="Binary" Debugging="true" />
@@ -83,5 +83,8 @@
     <LibraryObject Name="MTProfile" Source="" Memory="UserROM" Language="Binary" Debugging="true" />
     <LibraryObject Name="powerlnk" Source="" Memory="UserROM" Language="Binary" Debugging="true" />
     <LibraryObject Name="ksAlarm" Source="" Memory="UserROM" Language="Binary" Debugging="true" />
+    <LibraryObject Name="MpAlarmX" Source="Libraries.MpAlarmX.lby" Memory="UserROM" Language="Binary" Debugging="true" />
+    <LibraryObject Name="AsSMTP" Source="Libraries.AsSMTP.lby" Memory="UserROM" Language="binary" Debugging="true" />
+    <LibraryObject Name="asstring" Source="Libraries.asstring.lby" Memory="UserROM" Language="binary" Debugging="true" />
   </Libraries>
 </SwConfiguration>

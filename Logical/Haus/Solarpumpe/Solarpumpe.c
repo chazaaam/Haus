@@ -55,11 +55,20 @@ void _CYCLIC ProgramCyclic(void)
 			Info.LaufzeitDownAkt += CURRENT_CYCLE_TIME;
 			Info.LaufzeitUpGes += CURRENT_CYCLE_TIME;
 			
-			if(TON_PumpUp.Q && IO.Input.RuecklaufTemp <= Mem.RuecklaufSollTemp)
+			if(TON_PumpUp.Q)
 			{
-				IO.Output.PumpeUp = true;	
-				Info.LaufzeitUpAkt += CURRENT_CYCLE_TIME;
-				Info.LaufzeitDownGes += CURRENT_CYCLE_TIME;	
+				if(IO.Input.RuecklaufTemp <= Mem.RuecklaufSollTemp)
+				{
+					IO.Output.PumpeUp = true;	
+					Info.LaufzeitUpAkt += CURRENT_CYCLE_TIME;
+					Info.LaufzeitDownGes += CURRENT_CYCLE_TIME;	
+					
+					MpAlarmXReset(&gAlarmXCore, "PumpUpNotActive");
+				}
+				else
+				{
+					MpAlarmXSet(&gAlarmXCore, "PumpUpNotActive");             
+				}
 			}
 		}
 		else

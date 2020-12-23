@@ -1,3 +1,5 @@
 VAR
 	gCurrentDT : DATE_AND_TIME := DT#1970-01-01-00:00:00;
+	gSmtpSend : SmtpSend := (0);
+	gCurrentDTStruct : DTStructure := (0);
 END_VAR

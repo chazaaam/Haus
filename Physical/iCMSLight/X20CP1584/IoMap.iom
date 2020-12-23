@@ -1,11 +1,11 @@
 VAR_CONFIG
-	::Garage:IO.Output.Open AT %QX."X20DO9322".DigitalOutput01;
-	::Garage:IO.Output.Close AT %QX."X20DO9322".DigitalOutput02;
+	::Garage:IO.Output.Command AT %QX."X20DO9322".DigitalOutput01;
 	::Garage:IO.Input.Opened AT %IX."X20DI9371".DigitalInput01;
 	::Garage:IO.Input.Closed AT %IX."X20DI9371".DigitalInput02;
-	::Solarpumpe:IO.Output.PumpeUp AT %QX."X20DO9322".DigitalOutput03;
-	::Solarpumpe:IO.Output.PumpeDown AT %QX."X20DO9322".DigitalOutput04;
 	::Solarpumpe:IO.Input.DachTemp AT %IW."X20AT4222".Temperature01;
 	::Solarpumpe:IO.Input.RuecklaufTemp AT %IW."X20AT4222".Temperature02;
 	::Solarpumpe:IO.Input.KesselTemp AT %IW."X20AT4222".Temperature03;
+	::Garage:IO.Input.Button AT %IX."X20DI9371".DigitalInput03;
+	::Solarpumpe:IO.Output.PumpeUp  AT %QX."X20DO9322a".DigitalOutput01;
+	::Solarpumpe:IO.Output.PumpeDown  AT %QX."X20DO9322a".DigitalOutput02;
 END_VAR
