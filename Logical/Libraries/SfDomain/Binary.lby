@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<?AutomationStudio Version=4.8.4.50 SP?>
-<Library Version="5.12.2" SubType="Binary" Description="[mapp Safety] SafeDOMAIN management library" xmlns="http://br-automation.co.at/AS/Library">
-  <Files>
-    <File>SfDomain.fun</File>
-    <File>SfDomain.var</File>
-    <File>SfDomain.typ</File>
-  </Files>
-</Library>
